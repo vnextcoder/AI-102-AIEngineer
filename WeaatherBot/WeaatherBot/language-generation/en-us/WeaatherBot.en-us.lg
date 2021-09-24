@@ -1,0 +1,39 @@
+[import](common.lg)
+
+# SendActivity_DidNotUnderstand()
+[Activity
+    Text = ${SendActivity_DidNotUnderstand_text()}
+]
+
+# SendActivity_DidNotUnderstand_text()
+- Sorry, I didn't get that.
+
+# SendActivity_ucsQf6()
+[Activity
+    Text = ${SendActivity_ucsQf6_text()}
+]
+
+# SendActivity_ucsQf6_text()
+- ```Welcome to the weather bot! Say "weather" to get started.
+```
+- ```Hi! I'm a friendly bot that can help with the weather. Try saying WEATHER.
+```
+- ```Hello! I am Weather Bot! Say WEATHER to get the current conditions.
+```
+- ```Howdy! Weather bot is my name and weather is my game. Try saying WEATHER.
+```
+# myReceipt()
+[HeroCard
+
+buttons = Text | ${Some_CardAction}
+title = An Example Card
+image = https://example.com/demo.jpg
+subtitle = An Example Subtitle
+text = Some text
+]
+
+# Actionssuggest()
+[Suggestions
+	SuggestionActions = Text | ${Some_CardAction}
+]
+

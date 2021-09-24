@@ -1,4 +1,6 @@
 from dotenv import load_dotenv
+
+
 import os
 from azure.ai.textanalytics import TextAnalyticsClient
 from azure.core.credentials import AzureKeyCredential
@@ -31,6 +33,7 @@ def GetLanguage(text):
     client = TextAnalyticsClient(endpoint=cog_endpoint, credential=credential)
 
     # Call the service to get the detected language
+    print(client.detect_language(documents = [text]))
     detectedLanguage = client.detect_language(documents = [text])[0]
     return detectedLanguage.primary_language.name
 

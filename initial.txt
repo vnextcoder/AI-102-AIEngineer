@@ -1,0 +1,101 @@
+{
+    "query": "Are there any natural language processing jobs in my department right now?",
+    "prediction": {
+        "topIntent": "GetJobInformation",
+        "intents": {
+            "GetJobInformation": {
+                "score": 0.36070967
+            },
+            "ApplyForJob": {
+                "score": 0.11591533
+            },
+            "EmployeeFeedback": {
+                "score": 0.043228444
+            },
+            "MoveEmployee": {
+                "score": 0.009527676
+            },
+            "Utilities.Stop": {
+                "score": 0.0051776306
+            },
+            "Utilities.StartOver": {
+                "score": 0.004933792
+            },
+            "FindForm": {
+                "score": 0.004526621
+            },
+            "Utilities.Help": {
+                "score": 0.004471961
+            },
+            "None": {
+                "score": 0.003862571
+            },
+            "Utilities.Cancel": {
+                "score": 0.0018810742
+            },
+            "Utilities.Confirm": {
+                "score": 0.0012364218
+            }
+        },
+        "entities": {
+            "keyPhrase": [
+                "natural language processing jobs",
+                "department"
+            ],
+            "datetimeV2": [
+                {
+                    "type": "datetime",
+                    "values": [
+                        {
+                            "timex": "PRESENT_REF",
+                            "resolution": [
+                                {
+                                    "value": "2021-07-13 11:40:27"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "$instance": {
+                "keyPhrase": [
+                    {
+                        "type": "builtin.keyPhrase",
+                        "text": "natural language processing jobs",
+                        "startIndex": 14,
+                        "length": 32,
+                        "modelTypeId": 2,
+                        "modelType": "Prebuilt Entity Extractor",
+                        "recognitionSources": [
+                            "model"
+                        ]
+                    },
+                    {
+                        "type": "builtin.keyPhrase",
+                        "text": "department",
+                        "startIndex": 53,
+                        "length": 10,
+                        "modelTypeId": 2,
+                        "modelType": "Prebuilt Entity Extractor",
+                        "recognitionSources": [
+                            "model"
+                        ]
+                    }
+                ],
+                "datetimeV2": [
+                    {
+                        "type": "builtin.datetimeV2.datetime",
+                        "text": "right now",
+                        "startIndex": 64,
+                        "length": 9,
+                        "modelTypeId": 2,
+                        "modelType": "Prebuilt Entity Extractor",
+                        "recognitionSources": [
+                            "model"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

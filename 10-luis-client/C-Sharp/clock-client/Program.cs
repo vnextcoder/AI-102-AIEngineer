@@ -9,7 +9,9 @@ using Microsoft.Extensions.Configuration;
 using System.Threading.Tasks;
 
 // Import namespaces
-
+// Import namespaces
+using Microsoft.Azure.CognitiveServices.Language.LUIS.Runtime;
+using Microsoft.Azure.CognitiveServices.Language.LUIS.Runtime.Models;
 
 namespace clock_client
 {
@@ -28,8 +30,10 @@ namespace clock_client
                 string predictionKey = configuration["LuPredictionKey"];
 
                 // Create a client for the LU app
-                
 
+                // Create a client for the LU app
+                var credentials = new Microsoft.Azure.CognitiveServices.Language.LUIS.Runtime.ApiKeyServiceClientCredentials(predictionKey);
+                var luClient = new LUISRuntimeClient(credentials) { Endpoint = predictionEndpoint };
                 // Get user input (until they enter "quit")
                 string userText = "";
                 while (userText.ToLower() != "quit")
@@ -40,10 +44,85 @@ namespace clock_client
                     {
 
                         // Call the LU app to get intent and entities
-
+                        var slot = "Production";
+                        var request = new PredictionRequest { Query = userText };
+                        PredictionResponse predictionResponse = await luClient.Prediction.GetSlotPredictionAsync(luAppId, slot, request);
+                        Console.WriteLine(JsonConvert.SerializeObject(predictionResponse, Formatting.Indented));
+                        Console.WriteLine("--------------------\n");
+                        Console.WriteLine(predictionResponse.Query);
+                        var topIntent = predictionResponse.Prediction.TopIntent;
+                        var entities = predictionResponse.Prediction.Entities;
 
                         // Apply the appropriate action
-                        
+                        // Apply the appropriate action
+                        switch (topIntent)
+                        {
+                            case "GetTime":
+                                var location = "local";
+                                // Check for entities
+                                if (entities.Count > 0)
+                                {
+                                    // Check for a location entity
+                                    if (entities.ContainsKey("Location"))
+                                    {
+                                        //Get the JSON for the entity
+                                        var entityJson = JArray.Parse(entities["Location"].ToString());
+                                        // ML entities are strings, get the first one
+                                        location = entityJson[0].ToString();
+                                    }
+                                }
+
+                                // Get the time for the specified location
+                                var getTimeTask = Task.Run(() => GetTime(location));
+                                string timeResponse = await getTimeTask;
+                                Console.WriteLine(timeResponse);
+                                break;
+
+                            case "GetDay":
+                                var date = DateTime.Today.ToShortDateString();
+                                // Check for entities
+                                if (entities.Count > 0)
+                                {
+                                    // Check for a Date entity
+                                    if (entities.ContainsKey("Date"))
+                                    {
+                                        //Get the JSON for the entity
+                                        var entityJson = JArray.Parse(entities["Date"].ToString());
+                                        // Regex entities are strings, get the first one
+                                        date = entityJson[0].ToString();
+                                    }
+                                }
+                                // Get the day for the specified date
+                                var getDayTask = Task.Run(() => GetDay(date));
+                                string dayResponse = await getDayTask;
+                                Console.WriteLine(dayResponse);
+                                break;
+
+                            case "GetDate":
+                                var day = DateTime.Today.DayOfWeek.ToString();
+                                // Check for entities
+                                if (entities.Count > 0)
+                                {
+                                    // Check for a Weekday entity
+                                    if (entities.ContainsKey("Weekday"))
+                                    {
+                                        //Get the JSON for the entity
+                                        var entityJson = JArray.Parse(entities["Weekday"].ToString());
+                                        // List entities are lists
+                                        day = entityJson[0][0].ToString();
+                                    }
+                                }
+                                // Get the date for the specified day
+                                var getDateTask = Task.Run(() => GetDate(day));
+                                string dateResponse = await getDateTask;
+                                Console.WriteLine(dateResponse);
+                                break;
+
+                            default:
+                                // Some other intent (for example, "None") was predicted
+                                Console.WriteLine("Try asking me for the time, the day, or the date.");
+                                break;
+                        }
 
                     }
 
@@ -99,7 +178,7 @@ namespace clock_client
                     timeString = "I don't know what time it is in " + location;
                     break;
             }
-            
+
             return timeString;
         }
 
@@ -119,18 +198,18 @@ namespace clock_client
             return date_string;
 
         }
-        
+
         static string GetDay(string date)
         {
             // Note: To keep things simple, dates must be entered in US format (MM/DD/YYYY)
-             string day_string = "Enter a date in MM/DD/YYYY format.";
-             DateTime dateTime;
-             if (DateTime.TryParse(date, out dateTime))
-             {
-                  day_string = dateTime.DayOfWeek.ToString();
-             }
+            string day_string = "Enter a date in MM/DD/YYYY format.";
+            DateTime dateTime;
+            if (DateTime.TryParse(date, out dateTime))
+            {
+                day_string = dateTime.DayOfWeek.ToString();
+            }
 
-             return day_string;
+            return day_string;
         }
     }
 }

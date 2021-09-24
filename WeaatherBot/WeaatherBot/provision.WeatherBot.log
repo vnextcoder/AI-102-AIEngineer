@@ -1,0 +1,28 @@
+{
+  "profileName": "WeatherBot",
+  "jobId": "9e09794b-99e1-4e6d-a1ac-68917f75d72a",
+  "projectId": "19711.488162494217",
+  "time": "2021-07-18T14:44:35.927Z",
+  "log": [
+    "Creating Azure resources...",
+    "Checking the Existence of the Resource Group ...",
+    "Use the Resource Group: cogrg4 at westus2",
+    "> Creating App Registration ...",
+    "Start to add password for App, Id : 0085d2bd-fc7f-402d-ac0d-1afb3aaa3ae1",
+    "> Create App Registration Success! ID: 0085d2bd-fc7f-402d-ac0d-1afb3aaa3ae1",
+    "Deploying Web App Resource ...",
+    "Deploying Bot Resource ...",
+    "Deploying Cosmos DB Resource ...",
+    "Deploying Application Insights Resource ...",
+    "> Linking Application Insights settings to Bot Service ...",
+    "> AppInsights AppId: a6a610c5-af8c-4862-bd5b-8fb481eacb3b ...",
+    "> AppInsights InstrumentationKey: 97b0ba0c-d416-4135-89b7-705619a3c254 ...",
+    "> AppInsights ApiKey: ck65zhkdgeewghab5x1r08kfeeu04phrlivfehtd ...",
+    "> Linking Application Insights settings to Bot Service Success!",
+    "Deploying Blob Storage Resource ...",
+    "Deploying Luis Authoring Resource ...",
+    "Deploying Luis Resource ...",
+    "Deploying QnA Resource ...",
+    "Provisioning completed successfully!"
+  ]
+}

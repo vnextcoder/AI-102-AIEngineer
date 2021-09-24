@@ -9,7 +9,7 @@ using System.Linq;
 using Microsoft.Azure.CognitiveServices.Vision.CustomVision.Training;
 using Microsoft.Azure.CognitiveServices.Vision.CustomVision.Training.Models;
 
-// dotnet add package Microsoft.Azure.CognitiveServices.Vision.CustomVision.Training --version 2.0.0
+//Microsoft.Azure.CognitiveServices.Vision.CustomVision.Training --version 2.0.0
 
 namespace train_detector
 {
@@ -59,21 +59,25 @@ namespace train_detector
             string tag_json = File.ReadAllText("tagged-images.json");
             using (JsonDocument document = JsonDocument.Parse(tag_json))
             {
+                Console.WriteLine("hello");
                 JsonElement files = document.RootElement.GetProperty("files");
                 foreach (JsonElement file in files.EnumerateArray())
                 {
                     // Get the filename
                     string filename = file.GetProperty("filename").GetString();
+                Console.WriteLine("hello1");
 
                     // Get the tagged regions
                     JsonElement tagged_regions = file.GetProperty("tags");
                     List<Region> regions = new List<Region>();
+
                     foreach (JsonElement tag in tagged_regions.EnumerateArray())
                     {
                         string tag_name = tag.GetProperty("tag").GetString();
                         // Look up the tag ID for this tag name
                         var tag_item = tags.FirstOrDefault(t => t.Name == tag_name);
                         Guid tag_id = tag_item.Id;
+                        //Guid tag_id = Guid.NewGuid();
                         Double left = tag.GetProperty("left").GetDouble();
                         Double top = tag.GetProperty("top").GetDouble();
                         Double width = tag.GetProperty("width").GetDouble();
@@ -81,6 +85,7 @@ namespace train_detector
                         // Add a region for this tag using the coordinates and dimensions in the JSON
                         regions.Add (new Region(tag_id, left, top, width, height));
                     }
+                Console.WriteLine("hello2");
 
                     // Add the image and its regions to the list
                     imageFileEntries.Add(new ImageFileCreateEntry(filename, File.ReadAllBytes(Path.Combine(folder,filename)), null, regions));

@@ -1,0 +1,50 @@
+apiVersion: '2019-12-01'
+location: eastus
+name: luis-container-g
+properties:
+  containers:
+  - name: luis-container-g
+    properties:
+      environmentVariables:
+        - name: 'Eula'
+          value: 'accept'
+        - name: 'Billing'
+          value: 'https://mycogservice2392.cognitiveservices.azure.com/'
+        - name: 'ApiKey'
+          value: '3e572ef5ace442148a1d0d05bd6d8a9c'
+      image: mcr.microsoft.com/azure-cognitive-services/language/luis
+      ports:
+      - port: 5000
+      - port: 80
+      resources:
+        requests:
+          cpu: 1.0
+          memoryInGB: 4.0
+      volumeMounts:
+      - mountPath: /input
+        name: inputvolume
+      - mountPath: /output
+        name: outputvolume
+  osType: Linux
+  restartPolicy: Always
+  ipAddress:
+    type: Public
+    ports:
+    - protocol: tcp
+      port: 80
+    - protocol: tcp
+      port: 5000
+    dnsNameLabel: mycog23923
+  volumes:
+  - name: inputvolume
+    azureFile:
+      sharename: input
+      storageAccountName: csb10032001550fe562
+      storageAccountKey: tAOW7bV7Akz6WqfUsA+fDn9duklZSgSIk+xoETthz9cr0x+CfmTD+bg3HmbfZ1jYMzMBCoF9myhqbeLyYLqWog==
+  - name: outputvolume
+    azureFile:
+      sharename: output
+      storageAccountName: csb10032001550fe562
+      storageAccountKey: tAOW7bV7Akz6WqfUsA+fDn9duklZSgSIk+xoETthz9cr0x+CfmTD+bg3HmbfZ1jYMzMBCoF9myhqbeLyYLqWog==
+tags: {}
+type: Microsoft.ContainerInstance/containerGroups
