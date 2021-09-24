@@ -1,0 +1,4271 @@
+[
+  {
+    "type": "conversationUpdate",
+    "membersAdded": [
+      {
+        "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+        "name": "User",
+        "role": "user"
+      }
+    ],
+    "membersRemoved": [],
+    "id": "965982b0-731b-4fa6-8c8c-2ef49f910013",
+    "channelId": "emulator",
+    "recipient": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "localTimestamp": "2021-07-16T18:01:49+05:30",
+    "timestamp": "2021-07-16T12:31:49.590Z",
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "from": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "name": "User",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "serviceUrl": "http://localhost:5000"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "text": "Hi I am Weatherbot",
+    "speak": "<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='en-us'><voice name='en-US-JennyNeural'>Hi I am Weatherbot</voice></speak>",
+    "replyToId": "965982b0-731b-4fa6-8c8c-2ef49f910013",
+    "id": "d5a5a735-8663-4712-9173-e11f30732b9c",
+    "localTimestamp": "2021-07-16T18:01:50+05:30",
+    "timestamp": "2021-07-16T12:31:50.787Z"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "text": "What is your name?",
+    "speak": "<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='en-us'><voice name='en-US-JennyNeural'>What is your name?</voice></speak>",
+    "inputHint": "expectingInput",
+    "replyToId": "965982b0-731b-4fa6-8c8c-2ef49f910013",
+    "id": "1ef05e1c-9f49-4c41-af6f-3bec027cc74f",
+    "localTimestamp": "2021-07-16T18:01:50+05:30",
+    "timestamp": "2021-07-16T12:31:50.836Z"
+  },
+  {
+    "type": "trace",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "965982b0-731b-4fa6-8c8c-2ef49f910013",
+    "label": "Bot State",
+    "valueType": "https://www.botframework.com/schemas/botState",
+    "value": {
+      "turn": {
+        "locale": "en-us",
+        "activity": {
+          "type": "conversationUpdate",
+          "id": "965982b0-731b-4fa6-8c8c-2ef49f910013",
+          "timestamp": "2021-07-16T12:31:49.59Z",
+          "localTimestamp": "2021-07-16T12:31:49Z",
+          "serviceUrl": "http://localhost:5000",
+          "channelId": "emulator",
+          "from": {
+            "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+            "name": "User",
+            "role": "user"
+          },
+          "conversation": {
+            "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+          },
+          "recipient": {
+            "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+            "name": "Bot",
+            "role": "bot"
+          },
+          "membersAdded": [
+            {
+              "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+              "name": "User",
+              "role": "user"
+            }
+          ],
+          "membersRemoved": [],
+          "locale": "en-us"
+        },
+        "dialogEvent": {
+          "Bubble": false,
+          "Name": "activityReceived",
+          "Value": {
+            "type": "conversationUpdate",
+            "id": "965982b0-731b-4fa6-8c8c-2ef49f910013",
+            "timestamp": "2021-07-16T12:31:49.59Z",
+            "localTimestamp": "2021-07-16T12:31:49Z",
+            "localTimezone": null,
+            "serviceUrl": "http://localhost:5000",
+            "channelId": "emulator",
+            "from": {
+              "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+              "name": "User",
+              "aadObjectId": null,
+              "role": "user"
+            },
+            "conversation": {
+              "isGroup": null,
+              "conversationType": null,
+              "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat",
+              "name": null,
+              "aadObjectId": null,
+              "role": null,
+              "tenantId": null
+            },
+            "recipient": {
+              "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+              "name": "Bot",
+              "aadObjectId": null,
+              "role": "bot"
+            },
+            "textFormat": null,
+            "attachmentLayout": null,
+            "membersAdded": [
+              {
+                "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+                "name": "User",
+                "aadObjectId": null,
+                "role": "user"
+              }
+            ],
+            "membersRemoved": [],
+            "reactionsAdded": null,
+            "reactionsRemoved": null,
+            "topicName": null,
+            "historyDisclosed": null,
+            "locale": "en-us",
+            "text": null,
+            "speak": null,
+            "inputHint": null,
+            "summary": null,
+            "suggestedActions": null,
+            "attachments": null,
+            "entities": null,
+            "channelData": null,
+            "action": null,
+            "replyToId": null,
+            "label": null,
+            "valueType": null,
+            "value": null,
+            "name": null,
+            "relatesTo": null,
+            "code": null,
+            "expiration": null,
+            "importance": null,
+            "deliveryMode": null,
+            "listenFor": null,
+            "textHighlights": null,
+            "semanticAction": null,
+            "callerId": null
+          }
+        },
+        "lastresult": null,
+        "__repeatDialogId": "TrueIfCondition(=string(dialog.foreach.value.id) != string(turn.Activity.Recipient.id)|SendActivity(${SendActivity_Greeting()}))"
+      },
+      "dialog": {
+        "eventCounter": 2,
+        "_adaptive": {
+          "actions": [
+            {
+              "dialogId": "ActionScope[Foreach(=`turn.Activity.membersAdded`),TextInput,S...GqajJ0ajPB7jfUBmNi0KLUnOHOJXqREmqxVo3r0Phso=]",
+              "options": null,
+              "dialogStack": [
+                {
+                  "id": "TextInput",
+                  "state": {
+                    "options": null,
+                    "turnCount": 1,
+                    "value": null
+                  },
+                  "StackIndex": null,
+                  "Version": null
+                },
+                {
+                  "id": "ActionScope[Foreach(=`turn.Activity.membersAdded`),TextInput,S...GqajJ0ajPB7jfUBmNi0KLUnOHOJXqREmqxVo3r0Phso=]",
+                  "state": {
+                    "offset": 1
+                  },
+                  "StackIndex": null,
+                  "Version": null
+                }
+              ]
+            }
+          ]
+        },
+        "foreach": {
+          "value": {
+            "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+            "name": "User",
+            "role": "user"
+          },
+          "index": 0
+        }
+      },
+      "this": {
+        "options": null,
+        "turnCount": 1,
+        "value": null
+      },
+      "conversation": {
+        "DialogState": {
+          "dialogStack": [
+            {
+              "id": "WeaatherBot",
+              "state": {
+                "eventCounter": 2,
+                "_adaptive": {
+                  "actions": [
+                    {
+                      "dialogId": "ActionScope[Foreach(=`turn.Activity.membersAdded`),TextInput,S...GqajJ0ajPB7jfUBmNi0KLUnOHOJXqREmqxVo3r0Phso=]",
+                      "options": null,
+                      "dialogStack": [
+                        {
+                          "id": "TextInput",
+                          "state": {
+                            "options": null,
+                            "turnCount": 1,
+                            "value": null
+                          },
+                          "StackIndex": null,
+                          "Version": null
+                        },
+                        {
+                          "id": "ActionScope[Foreach(=`turn.Activity.membersAdded`),TextInput,S...GqajJ0ajPB7jfUBmNi0KLUnOHOJXqREmqxVo3r0Phso=]",
+                          "state": {
+                            "offset": 1
+                          },
+                          "StackIndex": null,
+                          "Version": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "foreach": {
+                  "value": {
+                    "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+                    "name": "User",
+                    "role": "user"
+                  },
+                  "index": 0
+                }
+              },
+              "StackIndex": null,
+              "Version": "CZKWI39W78GOuaeo238zIKyfq1e/Q13VKlZcGX/sPac="
+            }
+          ]
+        }
+      },
+      "user": {
+        "name": null
+      }
+    },
+    "name": "BotState",
+    "id": "a8cf0d86-228c-4c44-801c-eec3f521bbe6",
+    "localTimestamp": "2021-07-16T18:01:50+05:30",
+    "timestamp": "2021-07-16T12:31:50.858Z"
+  },
+  {
+    "channelData": {
+      "clientActivityID": "1626438713136tobeypx28om",
+      "clientTimestamp": "2021-07-16T12:31:53.136Z"
+    },
+    "text": "avinash",
+    "textFormat": "plain",
+    "type": "message",
+    "channelId": "emulator",
+    "from": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "name": "",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "timestamp": "2021-07-16T12:31:53.165Z",
+    "entities": [
+      {
+        "requiresBotState": true,
+        "supportsListening": true,
+        "supportsTts": true,
+        "type": "ClientCapabilities"
+      }
+    ],
+    "id": "a47a6745-127e-4176-8d78-57f590193de8",
+    "recipient": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "localTimestamp": "2021-07-16T18:01:53+05:30",
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "serviceUrl": "http://localhost:5000"
+  },
+  {
+    "type": "trace",
+    "timestamp": "2021-07-16T12:31:53.242Z",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "a47a6745-127e-4176-8d78-57f590193de8",
+    "label": "Regex RecognizerResult",
+    "valueType": "RecognizerResult",
+    "value": {
+      "text": "avinash",
+      "alteredText": null,
+      "intents": {
+        "None": {
+          "score": 1
+        }
+      },
+      "entities": {}
+    },
+    "name": "RegexRecognizer",
+    "id": "dfd586d9-1457-4c7e-858c-f865e2460bb3",
+    "localTimestamp": "2021-07-16T18:01:53+05:30"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "text": "Hello avinash, nice to meet you!.",
+    "speak": "<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='en-us'><voice name='en-US-JennyNeural'>Hello avinash, nice to meet you!.</voice></speak>",
+    "replyToId": "a47a6745-127e-4176-8d78-57f590193de8",
+    "id": "abd3e731-f990-417c-b922-1e7072adf214",
+    "localTimestamp": "2021-07-16T18:01:53+05:30",
+    "timestamp": "2021-07-16T12:31:53.270Z"
+  },
+  {
+    "type": "trace",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "a47a6745-127e-4176-8d78-57f590193de8",
+    "label": "Bot State",
+    "valueType": "https://www.botframework.com/schemas/botState",
+    "value": {
+      "turn": {
+        "locale": "en-us",
+        "activity": {
+          "type": "message",
+          "id": "a47a6745-127e-4176-8d78-57f590193de8",
+          "timestamp": "2021-07-16T12:31:53.165Z",
+          "localTimestamp": "2021-07-16T12:31:53Z",
+          "serviceUrl": "http://localhost:5000",
+          "channelId": "emulator",
+          "from": {
+            "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+            "name": "",
+            "role": "user"
+          },
+          "conversation": {
+            "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+          },
+          "recipient": {
+            "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+            "name": "Bot",
+            "role": "bot"
+          },
+          "textFormat": "plain",
+          "locale": "en-us",
+          "text": "avinash",
+          "entities": [
+            {
+              "type": "ClientCapabilities",
+              "requiresBotState": true,
+              "supportsListening": true,
+              "supportsTts": true
+            }
+          ],
+          "channelData": {
+            "clientActivityID": "1626438713136tobeypx28om",
+            "clientTimestamp": "2021-07-16T12:31:53.136Z"
+          }
+        },
+        "dialogEvent": {
+          "Bubble": false,
+          "Name": "endOfActions",
+          "Value": null
+        },
+        "recognized": {
+          "text": "avinash",
+          "alteredText": null,
+          "intents": {
+            "None": {
+              "score": 1
+            }
+          },
+          "entities": {
+            "$instance": {}
+          },
+          "intent": "None",
+          "score": 1
+        },
+        "activityProcessed": true,
+        "lastresult": null
+      },
+      "conversation": {
+        "DialogState": {
+          "dialogStack": []
+        }
+      },
+      "user": {
+        "name": "avinash"
+      }
+    },
+    "name": "BotState",
+    "id": "1d7e83e0-3697-42b7-b0c4-b8ec57d90612",
+    "localTimestamp": "2021-07-16T18:01:53+05:30",
+    "timestamp": "2021-07-16T12:31:53.278Z"
+  },
+  {
+    "channelData": {
+      "clientActivityID": "1626438720430o8vu7rzs9wq",
+      "clientTimestamp": "2021-07-16T12:32:00.430Z"
+    },
+    "text": "what is weather like?",
+    "textFormat": "plain",
+    "type": "message",
+    "channelId": "emulator",
+    "from": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "name": "",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "timestamp": "2021-07-16T12:32:00.470Z",
+    "id": "2ba2ec89-88a7-4631-bcf4-cb83e0028501",
+    "recipient": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "localTimestamp": "2021-07-16T18:02:00+05:30",
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "serviceUrl": "http://localhost:5000"
+  },
+  {
+    "type": "trace",
+    "timestamp": "2021-07-16T12:32:00.554Z",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "2ba2ec89-88a7-4631-bcf4-cb83e0028501",
+    "label": "Regex RecognizerResult",
+    "valueType": "RecognizerResult",
+    "value": {
+      "text": "what is weather like?",
+      "alteredText": null,
+      "intents": {
+        "WeatherRequested": {
+          "score": 1,
+          "pattern": "weather"
+        }
+      },
+      "entities": {}
+    },
+    "name": "RegexRecognizer",
+    "id": "9ab0d4c8-9cc6-478a-b279-a7d07a2d2d3b",
+    "localTimestamp": "2021-07-16T18:02:00+05:30"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "text": "Enter your city",
+    "speak": "<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='en-us'><voice name='en-US-JennyNeural'>Enter your city</voice></speak>",
+    "inputHint": "expectingInput",
+    "replyToId": "2ba2ec89-88a7-4631-bcf4-cb83e0028501",
+    "id": "8a1d8e49-b8e7-4e88-963a-44b9d95df0d8",
+    "localTimestamp": "2021-07-16T18:02:00+05:30",
+    "timestamp": "2021-07-16T12:32:00.579Z"
+  },
+  {
+    "type": "trace",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "2ba2ec89-88a7-4631-bcf4-cb83e0028501",
+    "label": "Bot State",
+    "valueType": "https://www.botframework.com/schemas/botState",
+    "value": {
+      "turn": {
+        "locale": "en-us",
+        "activity": {
+          "type": "message",
+          "id": "2ba2ec89-88a7-4631-bcf4-cb83e0028501",
+          "timestamp": "2021-07-16T12:32:00.47Z",
+          "localTimestamp": "2021-07-16T12:32:00Z",
+          "serviceUrl": "http://localhost:5000",
+          "channelId": "emulator",
+          "from": {
+            "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+            "name": "",
+            "role": "user"
+          },
+          "conversation": {
+            "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+          },
+          "recipient": {
+            "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+            "name": "Bot",
+            "role": "bot"
+          },
+          "textFormat": "plain",
+          "locale": "en-us",
+          "text": "what is weather like?",
+          "channelData": {
+            "clientActivityID": "1626438720430o8vu7rzs9wq",
+            "clientTimestamp": "2021-07-16T12:32:00.43Z"
+          }
+        },
+        "dialogEvent": {
+          "Bubble": false,
+          "Name": "beginDialog",
+          "Value": {}
+        },
+        "recognized": {
+          "text": "what is weather like?",
+          "alteredText": null,
+          "intents": {
+            "WeatherRequested": {
+              "score": 1,
+              "pattern": "weather"
+            }
+          },
+          "entities": {
+            "$instance": {}
+          },
+          "intent": "WeatherRequested",
+          "score": 1
+        },
+        "interrupted": true,
+        "activityProcessed": true
+      },
+      "dialog": {
+        "eventCounter": 1,
+        "_adaptive": {
+          "actions": [
+            {
+              "dialogId": "ActionScope[TextInput,HttpRequest[GET =`http://api.openweather...cxAlxZYQt112ebgglF8HDyz7a5uvisDXLc0EhHjQ1AY=]",
+              "options": null,
+              "dialogStack": [
+                {
+                  "id": "TextInput",
+                  "state": {
+                    "options": null,
+                    "turnCount": 1,
+                    "value": null
+                  },
+                  "StackIndex": null,
+                  "Version": null
+                },
+                {
+                  "id": "ActionScope[TextInput,HttpRequest[GET =`http://api.openweather...cxAlxZYQt112ebgglF8HDyz7a5uvisDXLc0EhHjQ1AY=]",
+                  "state": {
+                    "offset": 0
+                  },
+                  "StackIndex": null,
+                  "Version": null
+                }
+              ]
+            }
+          ]
+        },
+        "city": null
+      },
+      "this": {
+        "options": null,
+        "turnCount": 1,
+        "value": null
+      },
+      "conversation": {
+        "DialogState": {
+          "dialogStack": [
+            {
+              "id": "WeaatherBot",
+              "state": {
+                "eventCounter": 4,
+                "_adaptive": {
+                  "actions": [
+                    {
+                      "dialogId": "ActionScope[BeginDialog[GetWeather]]",
+                      "options": null,
+                      "dialogStack": [
+                        {
+                          "id": "GetWeather",
+                          "state": {
+                            "eventCounter": 1,
+                            "_adaptive": {
+                              "actions": [
+                                {
+                                  "dialogId": "ActionScope[TextInput,HttpRequest[GET =`http://api.openweather...cxAlxZYQt112ebgglF8HDyz7a5uvisDXLc0EhHjQ1AY=]",
+                                  "options": null,
+                                  "dialogStack": [
+                                    {
+                                      "id": "TextInput",
+                                      "state": {
+                                        "options": null,
+                                        "turnCount": 1,
+                                        "value": null
+                                      },
+                                      "StackIndex": null,
+                                      "Version": null
+                                    },
+                                    {
+                                      "id": "ActionScope[TextInput,HttpRequest[GET =`http://api.openweather...cxAlxZYQt112ebgglF8HDyz7a5uvisDXLc0EhHjQ1AY=]",
+                                      "state": {
+                                        "offset": 0
+                                      },
+                                      "StackIndex": null,
+                                      "Version": null
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            "city": null
+                          },
+                          "StackIndex": null,
+                          "Version": "qsylTZwmKNHvBVsuB6yDuiI7q9gdYDAEV8WLHrLbyL8="
+                        },
+                        {
+                          "id": "BeginDialog[GetWeather]",
+                          "state": {},
+                          "StackIndex": null,
+                          "Version": null
+                        },
+                        {
+                          "id": "ActionScope[BeginDialog[GetWeather]]",
+                          "state": {
+                            "offset": 0
+                          },
+                          "StackIndex": null,
+                          "Version": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "lastIntent": "WeatherRequested"
+              },
+              "StackIndex": null,
+              "Version": "CZKWI39W78GOuaeo238zIKyfq1e/Q13VKlZcGX/sPac="
+            }
+          ]
+        }
+      },
+      "user": {
+        "name": "avinash"
+      }
+    },
+    "name": "BotState",
+    "id": "13e119b3-3242-41e4-9fe3-30bfe114eb20",
+    "localTimestamp": "2021-07-16T18:02:00+05:30",
+    "timestamp": "2021-07-16T12:32:00.583Z"
+  },
+  {
+    "channelData": {
+      "clientActivityID": "1626438723782vw1fduidhj",
+      "clientTimestamp": "2021-07-16T12:32:03.782Z"
+    },
+    "text": "noida",
+    "textFormat": "plain",
+    "type": "message",
+    "channelId": "emulator",
+    "from": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "name": "",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "timestamp": "2021-07-16T12:32:03.820Z",
+    "id": "1510c250-198e-4738-84ea-7ec4902c7e4d",
+    "recipient": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "localTimestamp": "2021-07-16T18:02:03+05:30",
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "serviceUrl": "http://localhost:5000"
+  },
+  {
+    "type": "trace",
+    "timestamp": "2021-07-16T12:32:04.119Z",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "1510c250-198e-4738-84ea-7ec4902c7e4d",
+    "label": "HttpRequest[GET =`http://api.openweathermap.org/data/2.5/weather?units=metric&q=${dialog.city}&appid=5c881097ee4c93b1e66bdf57e34ab94d`]",
+    "valueType": "Microsoft.HttpRequest",
+    "value": {
+      "request": {
+        "method": "GET",
+        "url": "http://api.openweathermap.org/data/2.5/weather?units=metric&q=noida&appid=5c881097ee4c93b1e66bdf57e34ab94d"
+      },
+      "response": {
+        "statusCode": 200,
+        "reasonPhrase": "OK",
+        "headers": {
+          "Server": "openresty",
+          "Date": "Fri, 16 Jul 2021 12:32:03 GMT",
+          "Connection": "keep-alive",
+          "X-Cache-Key": "/data/2.5/weather?q=noida&units=metric",
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Allow-Credentials": "true",
+          "Access-Control-Allow-Methods": "GET, POST"
+        },
+        "content": {
+          "coord": {
+            "lon": 77.33,
+            "lat": 28.58
+          },
+          "weather": [
+            {
+              "id": 803,
+              "main": "Clouds",
+              "description": "broken clouds",
+              "icon": "04d"
+            }
+          ],
+          "base": "stations",
+          "main": {
+            "temp": 36.16,
+            "feels_like": 38.77,
+            "temp_min": 36.16,
+            "temp_max": 36.16,
+            "pressure": 1000,
+            "humidity": 38,
+            "sea_level": 1000,
+            "grnd_level": 978
+          },
+          "visibility": 10000,
+          "wind": {
+            "speed": 2.59,
+            "deg": 95,
+            "gust": 2.68
+          },
+          "clouds": {
+            "all": 73
+          },
+          "dt": 1626438706,
+          "sys": {
+            "type": 1,
+            "id": 9165,
+            "country": "IN",
+            "sunrise": 1626393788,
+            "sunset": 1626443394
+          },
+          "timezone": 19800,
+          "id": 7279746,
+          "name": "Noida",
+          "cod": 200
+        }
+      }
+    },
+    "name": "HttpRequest",
+    "id": "9dd9cf3f-a898-4ae8-8585-2d46f0931634",
+    "localTimestamp": "2021-07-16T18:02:04+05:30"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "text": "The weather in noida is broken clouds and the temperature is 36&deg;.",
+    "speak": "<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='en-us'><voice name='en-US-JennyNeural'>The weather in noida is broken clouds and the temperature is 36&deg;.</voice></speak>",
+    "replyToId": "1510c250-198e-4738-84ea-7ec4902c7e4d",
+    "id": "2c2a8dc0-c67e-48b2-8054-5dfbc7b21ae0",
+    "localTimestamp": "2021-07-16T18:02:04+05:30",
+    "timestamp": "2021-07-16T12:32:04.145Z"
+  },
+  {
+    "type": "trace",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "1510c250-198e-4738-84ea-7ec4902c7e4d",
+    "label": "Bot State",
+    "valueType": "https://www.botframework.com/schemas/botState",
+    "value": {
+      "turn": {
+        "locale": "en-us",
+        "activity": {
+          "type": "message",
+          "id": "1510c250-198e-4738-84ea-7ec4902c7e4d",
+          "timestamp": "2021-07-16T12:32:03.82Z",
+          "localTimestamp": "2021-07-16T12:32:03Z",
+          "serviceUrl": "http://localhost:5000",
+          "channelId": "emulator",
+          "from": {
+            "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+            "name": "",
+            "role": "user"
+          },
+          "conversation": {
+            "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+          },
+          "recipient": {
+            "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+            "name": "Bot",
+            "role": "bot"
+          },
+          "textFormat": "plain",
+          "locale": "en-us",
+          "text": "noida",
+          "channelData": {
+            "clientActivityID": "1626438723782vw1fduidhj",
+            "clientTimestamp": "2021-07-16T12:32:03.782Z"
+          }
+        },
+        "dialogEvent": {
+          "Bubble": false,
+          "Name": "endOfActions",
+          "Value": null
+        },
+        "recognized": {
+          "text": "noida",
+          "alteredText": null,
+          "intents": {
+            "None": {
+              "score": 1
+            }
+          },
+          "entities": {
+            "$instance": {}
+          },
+          "intent": "None",
+          "score": 1
+        },
+        "activityProcessed": true,
+        "lastresult": null,
+        "__repeatDialogId": "TrueIfCondition(=dialog.api_response.statusCode == 200|SetProperties[Microsoft.Bot.Builder.Dialogs.Adapti...)"
+      },
+      "conversation": {
+        "DialogState": {
+          "dialogStack": []
+        }
+      },
+      "user": {
+        "name": "avinash"
+      }
+    },
+    "name": "BotState",
+    "id": "bc9be9ba-7033-4d88-89d9-d776faac532c",
+    "localTimestamp": "2021-07-16T18:02:04+05:30",
+    "timestamp": "2021-07-16T12:32:04.151Z"
+  },
+  {
+    "channelData": {
+      "clientActivityID": "1626438735770qk1vju532wf",
+      "clientTimestamp": "2021-07-16T12:32:15.770Z"
+    },
+    "text": "what is weather like",
+    "textFormat": "plain",
+    "type": "message",
+    "channelId": "emulator",
+    "from": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "name": "",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "timestamp": "2021-07-16T12:32:15.805Z",
+    "id": "993d8cb7-a5a4-48f0-bed0-7e0a1d09d936",
+    "recipient": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "localTimestamp": "2021-07-16T18:02:15+05:30",
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "serviceUrl": "http://localhost:5000"
+  },
+  {
+    "type": "trace",
+    "timestamp": "2021-07-16T12:32:15.844Z",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "993d8cb7-a5a4-48f0-bed0-7e0a1d09d936",
+    "label": "Regex RecognizerResult",
+    "valueType": "RecognizerResult",
+    "value": {
+      "text": "what is weather like",
+      "alteredText": null,
+      "intents": {
+        "WeatherRequested": {
+          "score": 1,
+          "pattern": "weather"
+        }
+      },
+      "entities": {}
+    },
+    "name": "RegexRecognizer",
+    "id": "295de680-2a3b-4068-bbe3-36a88af7d34f",
+    "localTimestamp": "2021-07-16T18:02:15+05:30"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "text": "Enter your city",
+    "speak": "<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='en-us'><voice name='en-US-JennyNeural'>Enter your city</voice></speak>",
+    "inputHint": "expectingInput",
+    "replyToId": "993d8cb7-a5a4-48f0-bed0-7e0a1d09d936",
+    "id": "68b4d348-220f-48f6-bcf6-962fde83469e",
+    "localTimestamp": "2021-07-16T18:02:15+05:30",
+    "timestamp": "2021-07-16T12:32:15.854Z"
+  },
+  {
+    "type": "trace",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "993d8cb7-a5a4-48f0-bed0-7e0a1d09d936",
+    "label": "Bot State",
+    "valueType": "https://www.botframework.com/schemas/botState",
+    "value": {
+      "turn": {
+        "locale": "en-us",
+        "activity": {
+          "type": "message",
+          "id": "993d8cb7-a5a4-48f0-bed0-7e0a1d09d936",
+          "timestamp": "2021-07-16T12:32:15.805Z",
+          "localTimestamp": "2021-07-16T12:32:15Z",
+          "serviceUrl": "http://localhost:5000",
+          "channelId": "emulator",
+          "from": {
+            "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+            "name": "",
+            "role": "user"
+          },
+          "conversation": {
+            "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+          },
+          "recipient": {
+            "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+            "name": "Bot",
+            "role": "bot"
+          },
+          "textFormat": "plain",
+          "locale": "en-us",
+          "text": "what is weather like",
+          "channelData": {
+            "clientActivityID": "1626438735770qk1vju532wf",
+            "clientTimestamp": "2021-07-16T12:32:15.77Z"
+          }
+        },
+        "dialogEvent": {
+          "Bubble": false,
+          "Name": "beginDialog",
+          "Value": {}
+        },
+        "recognized": {
+          "text": "what is weather like",
+          "alteredText": null,
+          "intents": {
+            "WeatherRequested": {
+              "score": 1,
+              "pattern": "weather"
+            }
+          },
+          "entities": {
+            "$instance": {}
+          },
+          "intent": "WeatherRequested",
+          "score": 1
+        },
+        "interrupted": true,
+        "activityProcessed": true
+      },
+      "dialog": {
+        "eventCounter": 1,
+        "_adaptive": {
+          "actions": [
+            {
+              "dialogId": "ActionScope[TextInput,HttpRequest[GET =`http://api.openweather...cxAlxZYQt112ebgglF8HDyz7a5uvisDXLc0EhHjQ1AY=]",
+              "options": null,
+              "dialogStack": [
+                {
+                  "id": "TextInput",
+                  "state": {
+                    "options": null,
+                    "turnCount": 1,
+                    "value": null
+                  },
+                  "StackIndex": null,
+                  "Version": null
+                },
+                {
+                  "id": "ActionScope[TextInput,HttpRequest[GET =`http://api.openweather...cxAlxZYQt112ebgglF8HDyz7a5uvisDXLc0EhHjQ1AY=]",
+                  "state": {
+                    "offset": 0
+                  },
+                  "StackIndex": null,
+                  "Version": null
+                }
+              ]
+            }
+          ]
+        },
+        "city": null
+      },
+      "this": {
+        "options": null,
+        "turnCount": 1,
+        "value": null
+      },
+      "conversation": {
+        "DialogState": {
+          "dialogStack": [
+            {
+              "id": "WeaatherBot",
+              "state": {
+                "eventCounter": 4,
+                "_adaptive": {
+                  "actions": [
+                    {
+                      "dialogId": "ActionScope[BeginDialog[GetWeather]]",
+                      "options": null,
+                      "dialogStack": [
+                        {
+                          "id": "GetWeather",
+                          "state": {
+                            "eventCounter": 1,
+                            "_adaptive": {
+                              "actions": [
+                                {
+                                  "dialogId": "ActionScope[TextInput,HttpRequest[GET =`http://api.openweather...cxAlxZYQt112ebgglF8HDyz7a5uvisDXLc0EhHjQ1AY=]",
+                                  "options": null,
+                                  "dialogStack": [
+                                    {
+                                      "id": "TextInput",
+                                      "state": {
+                                        "options": null,
+                                        "turnCount": 1,
+                                        "value": null
+                                      },
+                                      "StackIndex": null,
+                                      "Version": null
+                                    },
+                                    {
+                                      "id": "ActionScope[TextInput,HttpRequest[GET =`http://api.openweather...cxAlxZYQt112ebgglF8HDyz7a5uvisDXLc0EhHjQ1AY=]",
+                                      "state": {
+                                        "offset": 0
+                                      },
+                                      "StackIndex": null,
+                                      "Version": null
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            "city": null
+                          },
+                          "StackIndex": null,
+                          "Version": "qsylTZwmKNHvBVsuB6yDuiI7q9gdYDAEV8WLHrLbyL8="
+                        },
+                        {
+                          "id": "BeginDialog[GetWeather]",
+                          "state": {},
+                          "StackIndex": null,
+                          "Version": null
+                        },
+                        {
+                          "id": "ActionScope[BeginDialog[GetWeather]]",
+                          "state": {
+                            "offset": 0
+                          },
+                          "StackIndex": null,
+                          "Version": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "lastIntent": "WeatherRequested"
+              },
+              "StackIndex": null,
+              "Version": "CZKWI39W78GOuaeo238zIKyfq1e/Q13VKlZcGX/sPac="
+            }
+          ]
+        }
+      },
+      "user": {
+        "name": "avinash"
+      }
+    },
+    "name": "BotState",
+    "id": "350982ea-f8ba-475c-859b-fc8ef7241d9d",
+    "localTimestamp": "2021-07-16T18:02:15+05:30",
+    "timestamp": "2021-07-16T12:32:15.859Z"
+  },
+  {
+    "channelData": {
+      "clientActivityID": "1626438738792pcztce65s4",
+      "clientTimestamp": "2021-07-16T12:32:18.792Z"
+    },
+    "text": "new york",
+    "textFormat": "plain",
+    "type": "message",
+    "channelId": "emulator",
+    "from": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "name": "",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "timestamp": "2021-07-16T12:32:18.830Z",
+    "id": "09b829c0-f4e4-4dca-8b78-ddad9e505472",
+    "recipient": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "localTimestamp": "2021-07-16T18:02:18+05:30",
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "serviceUrl": "http://localhost:5000"
+  },
+  {
+    "type": "trace",
+    "timestamp": "2021-07-16T12:32:19.032Z",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "09b829c0-f4e4-4dca-8b78-ddad9e505472",
+    "label": "HttpRequest[GET =`http://api.openweathermap.org/data/2.5/weather?units=metric&q=${dialog.city}&appid=5c881097ee4c93b1e66bdf57e34ab94d`]",
+    "valueType": "Microsoft.HttpRequest",
+    "value": {
+      "request": {
+        "method": "GET",
+        "url": "http://api.openweathermap.org/data/2.5/weather?units=metric&q=new york&appid=5c881097ee4c93b1e66bdf57e34ab94d"
+      },
+      "response": {
+        "statusCode": 200,
+        "reasonPhrase": "OK",
+        "headers": {
+          "Server": "openresty",
+          "Date": "Fri, 16 Jul 2021 12:32:18 GMT",
+          "Connection": "keep-alive",
+          "X-Cache-Key": "/data/2.5/weather?q=new%20york&units=metric",
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Allow-Credentials": "true",
+          "Access-Control-Allow-Methods": "GET, POST"
+        },
+        "content": {
+          "coord": {
+            "lon": -74.006,
+            "lat": 40.7143
+          },
+          "weather": [
+            {
+              "id": 800,
+              "main": "Clear",
+              "description": "clear sky",
+              "icon": "01d"
+            }
+          ],
+          "base": "stations",
+          "main": {
+            "temp": 26.78,
+            "feels_like": 29.1,
+            "temp_min": 24.05,
+            "temp_max": 28.48,
+            "pressure": 1017,
+            "humidity": 78
+          },
+          "visibility": 10000,
+          "wind": {
+            "speed": 2.06,
+            "deg": 220
+          },
+          "clouds": {
+            "all": 1
+          },
+          "dt": 1626438300,
+          "sys": {
+            "type": 1,
+            "id": 4610,
+            "country": "US",
+            "sunrise": 1626428309,
+            "sunset": 1626481519
+          },
+          "timezone": -14400,
+          "id": 5128581,
+          "name": "New York",
+          "cod": 200
+        }
+      }
+    },
+    "name": "HttpRequest",
+    "id": "687eef5c-9e1b-41aa-b669-2c1206b30e0d",
+    "localTimestamp": "2021-07-16T18:02:19+05:30"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "text": "The weather in new york is clear sky and the temperature is 27&deg;.",
+    "speak": "<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='en-us'><voice name='en-US-JennyNeural'>The weather in new york is clear sky and the temperature is 27&deg;.</voice></speak>",
+    "replyToId": "09b829c0-f4e4-4dca-8b78-ddad9e505472",
+    "id": "433a1409-dde3-4a49-827e-91b312f1cba2",
+    "localTimestamp": "2021-07-16T18:02:19+05:30",
+    "timestamp": "2021-07-16T12:32:19.042Z"
+  },
+  {
+    "type": "trace",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "09b829c0-f4e4-4dca-8b78-ddad9e505472",
+    "label": "Bot State",
+    "valueType": "https://www.botframework.com/schemas/botState",
+    "value": {
+      "turn": {
+        "locale": "en-us",
+        "activity": {
+          "type": "message",
+          "id": "09b829c0-f4e4-4dca-8b78-ddad9e505472",
+          "timestamp": "2021-07-16T12:32:18.83Z",
+          "localTimestamp": "2021-07-16T12:32:18Z",
+          "serviceUrl": "http://localhost:5000",
+          "channelId": "emulator",
+          "from": {
+            "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+            "name": "",
+            "role": "user"
+          },
+          "conversation": {
+            "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+          },
+          "recipient": {
+            "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+            "name": "Bot",
+            "role": "bot"
+          },
+          "textFormat": "plain",
+          "locale": "en-us",
+          "text": "new york",
+          "channelData": {
+            "clientActivityID": "1626438738792pcztce65s4",
+            "clientTimestamp": "2021-07-16T12:32:18.792Z"
+          }
+        },
+        "dialogEvent": {
+          "Bubble": false,
+          "Name": "endOfActions",
+          "Value": null
+        },
+        "recognized": {
+          "text": "new york",
+          "alteredText": null,
+          "intents": {
+            "None": {
+              "score": 1
+            }
+          },
+          "entities": {
+            "$instance": {}
+          },
+          "intent": "None",
+          "score": 1
+        },
+        "activityProcessed": true,
+        "lastresult": null,
+        "__repeatDialogId": "TrueIfCondition(=dialog.api_response.statusCode == 200|SetProperties[Microsoft.Bot.Builder.Dialogs.Adapti...)"
+      },
+      "conversation": {
+        "DialogState": {
+          "dialogStack": []
+        }
+      },
+      "user": {
+        "name": "avinash"
+      }
+    },
+    "name": "BotState",
+    "id": "5e8b9985-6518-4df9-aa82-b60e373c5ec8",
+    "localTimestamp": "2021-07-16T18:02:19+05:30",
+    "timestamp": "2021-07-16T12:32:19.046Z"
+  },
+  {
+    "channelData": {
+      "clientActivityID": "1626438751323vt5m5oifxw",
+      "clientTimestamp": "2021-07-16T12:32:31.323Z"
+    },
+    "text": "weather",
+    "textFormat": "plain",
+    "type": "message",
+    "channelId": "emulator",
+    "from": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "name": "",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "timestamp": "2021-07-16T12:32:31.355Z",
+    "id": "b2b7db6e-25f6-476d-8dfb-8b2580a5a20a",
+    "recipient": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "localTimestamp": "2021-07-16T18:02:31+05:30",
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "serviceUrl": "http://localhost:5000"
+  },
+  {
+    "type": "trace",
+    "timestamp": "2021-07-16T12:32:31.388Z",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "b2b7db6e-25f6-476d-8dfb-8b2580a5a20a",
+    "label": "Regex RecognizerResult",
+    "valueType": "RecognizerResult",
+    "value": {
+      "text": "weather",
+      "alteredText": null,
+      "intents": {
+        "WeatherRequested": {
+          "score": 1,
+          "pattern": "weather"
+        }
+      },
+      "entities": {}
+    },
+    "name": "RegexRecognizer",
+    "id": "c1161300-49d5-4d32-bd14-230323d108ff",
+    "localTimestamp": "2021-07-16T18:02:31+05:30"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "text": "Enter your city",
+    "speak": "<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='en-us'><voice name='en-US-JennyNeural'>Enter your city</voice></speak>",
+    "inputHint": "expectingInput",
+    "replyToId": "b2b7db6e-25f6-476d-8dfb-8b2580a5a20a",
+    "id": "857f7bba-a178-4c73-a4c9-c7238f5d3fe1",
+    "localTimestamp": "2021-07-16T18:02:31+05:30",
+    "timestamp": "2021-07-16T12:32:31.399Z"
+  },
+  {
+    "type": "trace",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "b2b7db6e-25f6-476d-8dfb-8b2580a5a20a",
+    "label": "Bot State",
+    "valueType": "https://www.botframework.com/schemas/botState",
+    "value": {
+      "turn": {
+        "locale": "en-us",
+        "activity": {
+          "type": "message",
+          "id": "b2b7db6e-25f6-476d-8dfb-8b2580a5a20a",
+          "timestamp": "2021-07-16T12:32:31.355Z",
+          "localTimestamp": "2021-07-16T12:32:31Z",
+          "serviceUrl": "http://localhost:5000",
+          "channelId": "emulator",
+          "from": {
+            "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+            "name": "",
+            "role": "user"
+          },
+          "conversation": {
+            "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+          },
+          "recipient": {
+            "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+            "name": "Bot",
+            "role": "bot"
+          },
+          "textFormat": "plain",
+          "locale": "en-us",
+          "text": "weather",
+          "channelData": {
+            "clientActivityID": "1626438751323vt5m5oifxw",
+            "clientTimestamp": "2021-07-16T12:32:31.323Z"
+          }
+        },
+        "dialogEvent": {
+          "Bubble": false,
+          "Name": "beginDialog",
+          "Value": {}
+        },
+        "recognized": {
+          "text": "weather",
+          "alteredText": null,
+          "intents": {
+            "WeatherRequested": {
+              "score": 1,
+              "pattern": "weather"
+            }
+          },
+          "entities": {
+            "$instance": {}
+          },
+          "intent": "WeatherRequested",
+          "score": 1
+        },
+        "interrupted": true,
+        "activityProcessed": true
+      },
+      "dialog": {
+        "eventCounter": 1,
+        "_adaptive": {
+          "actions": [
+            {
+              "dialogId": "ActionScope[TextInput,HttpRequest[GET =`http://api.openweather...cxAlxZYQt112ebgglF8HDyz7a5uvisDXLc0EhHjQ1AY=]",
+              "options": null,
+              "dialogStack": [
+                {
+                  "id": "TextInput",
+                  "state": {
+                    "options": null,
+                    "turnCount": 1,
+                    "value": null
+                  },
+                  "StackIndex": null,
+                  "Version": null
+                },
+                {
+                  "id": "ActionScope[TextInput,HttpRequest[GET =`http://api.openweather...cxAlxZYQt112ebgglF8HDyz7a5uvisDXLc0EhHjQ1AY=]",
+                  "state": {
+                    "offset": 0
+                  },
+                  "StackIndex": null,
+                  "Version": null
+                }
+              ]
+            }
+          ]
+        },
+        "city": null
+      },
+      "this": {
+        "options": null,
+        "turnCount": 1,
+        "value": null
+      },
+      "conversation": {
+        "DialogState": {
+          "dialogStack": [
+            {
+              "id": "WeaatherBot",
+              "state": {
+                "eventCounter": 4,
+                "_adaptive": {
+                  "actions": [
+                    {
+                      "dialogId": "ActionScope[BeginDialog[GetWeather]]",
+                      "options": null,
+                      "dialogStack": [
+                        {
+                          "id": "GetWeather",
+                          "state": {
+                            "eventCounter": 1,
+                            "_adaptive": {
+                              "actions": [
+                                {
+                                  "dialogId": "ActionScope[TextInput,HttpRequest[GET =`http://api.openweather...cxAlxZYQt112ebgglF8HDyz7a5uvisDXLc0EhHjQ1AY=]",
+                                  "options": null,
+                                  "dialogStack": [
+                                    {
+                                      "id": "TextInput",
+                                      "state": {
+                                        "options": null,
+                                        "turnCount": 1,
+                                        "value": null
+                                      },
+                                      "StackIndex": null,
+                                      "Version": null
+                                    },
+                                    {
+                                      "id": "ActionScope[TextInput,HttpRequest[GET =`http://api.openweather...cxAlxZYQt112ebgglF8HDyz7a5uvisDXLc0EhHjQ1AY=]",
+                                      "state": {
+                                        "offset": 0
+                                      },
+                                      "StackIndex": null,
+                                      "Version": null
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            "city": null
+                          },
+                          "StackIndex": null,
+                          "Version": "qsylTZwmKNHvBVsuB6yDuiI7q9gdYDAEV8WLHrLbyL8="
+                        },
+                        {
+                          "id": "BeginDialog[GetWeather]",
+                          "state": {},
+                          "StackIndex": null,
+                          "Version": null
+                        },
+                        {
+                          "id": "ActionScope[BeginDialog[GetWeather]]",
+                          "state": {
+                            "offset": 0
+                          },
+                          "StackIndex": null,
+                          "Version": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "lastIntent": "WeatherRequested"
+              },
+              "StackIndex": null,
+              "Version": "CZKWI39W78GOuaeo238zIKyfq1e/Q13VKlZcGX/sPac="
+            }
+          ]
+        }
+      },
+      "user": {
+        "name": "avinash"
+      }
+    },
+    "name": "BotState",
+    "id": "988e58a4-dcfd-4a4a-adeb-18ddcf7501f3",
+    "localTimestamp": "2021-07-16T18:02:31+05:30",
+    "timestamp": "2021-07-16T12:32:31.403Z"
+  },
+  {
+    "channelData": {
+      "clientActivityID": "1626438760854ipfgdp4sxdl",
+      "clientTimestamp": "2021-07-16T12:32:40.854Z"
+    },
+    "text": "imphal",
+    "textFormat": "plain",
+    "type": "message",
+    "channelId": "emulator",
+    "from": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "name": "",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "timestamp": "2021-07-16T12:32:40.885Z",
+    "id": "dd5c89c9-459f-4c00-b172-32a06fd5b98f",
+    "recipient": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "localTimestamp": "2021-07-16T18:02:40+05:30",
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "serviceUrl": "http://localhost:5000"
+  },
+  {
+    "type": "trace",
+    "timestamp": "2021-07-16T12:32:41.106Z",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "dd5c89c9-459f-4c00-b172-32a06fd5b98f",
+    "label": "HttpRequest[GET =`http://api.openweathermap.org/data/2.5/weather?units=metric&q=${dialog.city}&appid=5c881097ee4c93b1e66bdf57e34ab94d`]",
+    "valueType": "Microsoft.HttpRequest",
+    "value": {
+      "request": {
+        "method": "GET",
+        "url": "http://api.openweathermap.org/data/2.5/weather?units=metric&q=imphal&appid=5c881097ee4c93b1e66bdf57e34ab94d"
+      },
+      "response": {
+        "statusCode": 200,
+        "reasonPhrase": "OK",
+        "headers": {
+          "Server": "openresty",
+          "Date": "Fri, 16 Jul 2021 12:32:40 GMT",
+          "Connection": "keep-alive",
+          "X-Cache-Key": "/data/2.5/weather?q=imphal&units=metric",
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Allow-Credentials": "true",
+          "Access-Control-Allow-Methods": "GET, POST"
+        },
+        "content": {
+          "coord": {
+            "lon": 93.95,
+            "lat": 24.8167
+          },
+          "weather": [
+            {
+              "id": 501,
+              "main": "Rain",
+              "description": "moderate rain",
+              "icon": "10d"
+            }
+          ],
+          "base": "stations",
+          "main": {
+            "temp": 26.95,
+            "feels_like": 29.1,
+            "temp_min": 26.95,
+            "temp_max": 26.95,
+            "pressure": 1009,
+            "humidity": 74
+          },
+          "visibility": 6000,
+          "wind": {
+            "speed": 1.03,
+            "deg": 320
+          },
+          "rain": {
+            "1h": 3.89
+          },
+          "clouds": {
+            "all": 75
+          },
+          "dt": 1626438688,
+          "sys": {
+            "type": 1,
+            "id": 9119,
+            "country": "IN",
+            "sunrise": 1626390260,
+            "sunset": 1626438944
+          },
+          "timezone": 19800,
+          "id": 1269771,
+          "name": "Imphal",
+          "cod": 200
+        }
+      }
+    },
+    "name": "HttpRequest",
+    "id": "a8f1f4bd-6ba2-4840-850a-171a90c9c142",
+    "localTimestamp": "2021-07-16T18:02:41+05:30"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "text": "The weather in imphal is moderate rain and the temperature is 27&deg;.",
+    "speak": "<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='en-us'><voice name='en-US-JennyNeural'>The weather in imphal is moderate rain and the temperature is 27&deg;.</voice></speak>",
+    "replyToId": "dd5c89c9-459f-4c00-b172-32a06fd5b98f",
+    "id": "0dd4d477-772e-4cd9-9c4b-3566b25c922a",
+    "localTimestamp": "2021-07-16T18:02:41+05:30",
+    "timestamp": "2021-07-16T12:32:41.115Z"
+  },
+  {
+    "type": "trace",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "dd5c89c9-459f-4c00-b172-32a06fd5b98f",
+    "label": "Bot State",
+    "valueType": "https://www.botframework.com/schemas/botState",
+    "value": {
+      "turn": {
+        "locale": "en-us",
+        "activity": {
+          "type": "message",
+          "id": "dd5c89c9-459f-4c00-b172-32a06fd5b98f",
+          "timestamp": "2021-07-16T12:32:40.885Z",
+          "localTimestamp": "2021-07-16T12:32:40Z",
+          "serviceUrl": "http://localhost:5000",
+          "channelId": "emulator",
+          "from": {
+            "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+            "name": "",
+            "role": "user"
+          },
+          "conversation": {
+            "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+          },
+          "recipient": {
+            "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+            "name": "Bot",
+            "role": "bot"
+          },
+          "textFormat": "plain",
+          "locale": "en-us",
+          "text": "imphal",
+          "channelData": {
+            "clientActivityID": "1626438760854ipfgdp4sxdl",
+            "clientTimestamp": "2021-07-16T12:32:40.854Z"
+          }
+        },
+        "dialogEvent": {
+          "Bubble": false,
+          "Name": "endOfActions",
+          "Value": null
+        },
+        "recognized": {
+          "text": "imphal",
+          "alteredText": null,
+          "intents": {
+            "None": {
+              "score": 1
+            }
+          },
+          "entities": {
+            "$instance": {}
+          },
+          "intent": "None",
+          "score": 1
+        },
+        "activityProcessed": true,
+        "lastresult": null,
+        "__repeatDialogId": "TrueIfCondition(=dialog.api_response.statusCode == 200|SetProperties[Microsoft.Bot.Builder.Dialogs.Adapti...)"
+      },
+      "conversation": {
+        "DialogState": {
+          "dialogStack": []
+        }
+      },
+      "user": {
+        "name": "avinash"
+      }
+    },
+    "name": "BotState",
+    "id": "5ae9ff9e-c8d2-4e79-9be9-0403c9619a66",
+    "localTimestamp": "2021-07-16T18:02:41+05:30",
+    "timestamp": "2021-07-16T12:32:41.119Z"
+  },
+  {
+    "channelData": {
+      "clientActivityID": "162643877486140ewalq9dup",
+      "clientTimestamp": "2021-07-16T12:32:54.861Z"
+    },
+    "text": "weather",
+    "textFormat": "plain",
+    "type": "message",
+    "channelId": "emulator",
+    "from": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "name": "",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "timestamp": "2021-07-16T12:32:54.897Z",
+    "id": "30db3e72-df16-4349-a939-367c44e9d28e",
+    "recipient": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "localTimestamp": "2021-07-16T18:02:54+05:30",
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "serviceUrl": "http://localhost:5000"
+  },
+  {
+    "type": "trace",
+    "timestamp": "2021-07-16T12:32:54.926Z",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "30db3e72-df16-4349-a939-367c44e9d28e",
+    "label": "Regex RecognizerResult",
+    "valueType": "RecognizerResult",
+    "value": {
+      "text": "weather",
+      "alteredText": null,
+      "intents": {
+        "WeatherRequested": {
+          "score": 1,
+          "pattern": "weather"
+        }
+      },
+      "entities": {}
+    },
+    "name": "RegexRecognizer",
+    "id": "6ece86bf-207d-4024-8d83-c41207e55c9a",
+    "localTimestamp": "2021-07-16T18:02:54+05:30"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "text": "Enter your city",
+    "speak": "<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='en-us'><voice name='en-US-JennyNeural'>Enter your city</voice></speak>",
+    "inputHint": "expectingInput",
+    "replyToId": "30db3e72-df16-4349-a939-367c44e9d28e",
+    "id": "50a73341-7b74-4043-acff-0b8edb1e469f",
+    "localTimestamp": "2021-07-16T18:02:54+05:30",
+    "timestamp": "2021-07-16T12:32:54.935Z"
+  },
+  {
+    "type": "trace",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "30db3e72-df16-4349-a939-367c44e9d28e",
+    "label": "Bot State",
+    "valueType": "https://www.botframework.com/schemas/botState",
+    "value": {
+      "turn": {
+        "locale": "en-us",
+        "activity": {
+          "type": "message",
+          "id": "30db3e72-df16-4349-a939-367c44e9d28e",
+          "timestamp": "2021-07-16T12:32:54.897Z",
+          "localTimestamp": "2021-07-16T12:32:54Z",
+          "serviceUrl": "http://localhost:5000",
+          "channelId": "emulator",
+          "from": {
+            "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+            "name": "",
+            "role": "user"
+          },
+          "conversation": {
+            "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+          },
+          "recipient": {
+            "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+            "name": "Bot",
+            "role": "bot"
+          },
+          "textFormat": "plain",
+          "locale": "en-us",
+          "text": "weather",
+          "channelData": {
+            "clientActivityID": "162643877486140ewalq9dup",
+            "clientTimestamp": "2021-07-16T12:32:54.861Z"
+          }
+        },
+        "dialogEvent": {
+          "Bubble": false,
+          "Name": "beginDialog",
+          "Value": {}
+        },
+        "recognized": {
+          "text": "weather",
+          "alteredText": null,
+          "intents": {
+            "WeatherRequested": {
+              "score": 1,
+              "pattern": "weather"
+            }
+          },
+          "entities": {
+            "$instance": {}
+          },
+          "intent": "WeatherRequested",
+          "score": 1
+        },
+        "interrupted": true,
+        "activityProcessed": true
+      },
+      "dialog": {
+        "eventCounter": 1,
+        "_adaptive": {
+          "actions": [
+            {
+              "dialogId": "ActionScope[TextInput,HttpRequest[GET =`http://api.openweather...cxAlxZYQt112ebgglF8HDyz7a5uvisDXLc0EhHjQ1AY=]",
+              "options": null,
+              "dialogStack": [
+                {
+                  "id": "TextInput",
+                  "state": {
+                    "options": null,
+                    "turnCount": 1,
+                    "value": null
+                  },
+                  "StackIndex": null,
+                  "Version": null
+                },
+                {
+                  "id": "ActionScope[TextInput,HttpRequest[GET =`http://api.openweather...cxAlxZYQt112ebgglF8HDyz7a5uvisDXLc0EhHjQ1AY=]",
+                  "state": {
+                    "offset": 0
+                  },
+                  "StackIndex": null,
+                  "Version": null
+                }
+              ]
+            }
+          ]
+        },
+        "city": null
+      },
+      "this": {
+        "options": null,
+        "turnCount": 1,
+        "value": null
+      },
+      "conversation": {
+        "DialogState": {
+          "dialogStack": [
+            {
+              "id": "WeaatherBot",
+              "state": {
+                "eventCounter": 4,
+                "_adaptive": {
+                  "actions": [
+                    {
+                      "dialogId": "ActionScope[BeginDialog[GetWeather]]",
+                      "options": null,
+                      "dialogStack": [
+                        {
+                          "id": "GetWeather",
+                          "state": {
+                            "eventCounter": 1,
+                            "_adaptive": {
+                              "actions": [
+                                {
+                                  "dialogId": "ActionScope[TextInput,HttpRequest[GET =`http://api.openweather...cxAlxZYQt112ebgglF8HDyz7a5uvisDXLc0EhHjQ1AY=]",
+                                  "options": null,
+                                  "dialogStack": [
+                                    {
+                                      "id": "TextInput",
+                                      "state": {
+                                        "options": null,
+                                        "turnCount": 1,
+                                        "value": null
+                                      },
+                                      "StackIndex": null,
+                                      "Version": null
+                                    },
+                                    {
+                                      "id": "ActionScope[TextInput,HttpRequest[GET =`http://api.openweather...cxAlxZYQt112ebgglF8HDyz7a5uvisDXLc0EhHjQ1AY=]",
+                                      "state": {
+                                        "offset": 0
+                                      },
+                                      "StackIndex": null,
+                                      "Version": null
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            "city": null
+                          },
+                          "StackIndex": null,
+                          "Version": "qsylTZwmKNHvBVsuB6yDuiI7q9gdYDAEV8WLHrLbyL8="
+                        },
+                        {
+                          "id": "BeginDialog[GetWeather]",
+                          "state": {},
+                          "StackIndex": null,
+                          "Version": null
+                        },
+                        {
+                          "id": "ActionScope[BeginDialog[GetWeather]]",
+                          "state": {
+                            "offset": 0
+                          },
+                          "StackIndex": null,
+                          "Version": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "lastIntent": "WeatherRequested"
+              },
+              "StackIndex": null,
+              "Version": "CZKWI39W78GOuaeo238zIKyfq1e/Q13VKlZcGX/sPac="
+            }
+          ]
+        }
+      },
+      "user": {
+        "name": "avinash"
+      }
+    },
+    "name": "BotState",
+    "id": "7bdcd043-f40f-417b-9b41-d87b0dc88bd1",
+    "localTimestamp": "2021-07-16T18:02:54+05:30",
+    "timestamp": "2021-07-16T12:32:54.938Z"
+  },
+  {
+    "channelData": {
+      "clientActivityID": "16264387777648wl3k805g",
+      "clientTimestamp": "2021-07-16T12:32:57.764Z"
+    },
+    "text": "london",
+    "textFormat": "plain",
+    "type": "message",
+    "channelId": "emulator",
+    "from": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "name": "",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "timestamp": "2021-07-16T12:32:57.797Z",
+    "id": "58250276-236a-4e02-ad88-6f66d9e9db72",
+    "recipient": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "localTimestamp": "2021-07-16T18:02:57+05:30",
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "serviceUrl": "http://localhost:5000"
+  },
+  {
+    "type": "trace",
+    "timestamp": "2021-07-16T12:32:58.005Z",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "58250276-236a-4e02-ad88-6f66d9e9db72",
+    "label": "HttpRequest[GET =`http://api.openweathermap.org/data/2.5/weather?units=metric&q=${dialog.city}&appid=5c881097ee4c93b1e66bdf57e34ab94d`]",
+    "valueType": "Microsoft.HttpRequest",
+    "value": {
+      "request": {
+        "method": "GET",
+        "url": "http://api.openweathermap.org/data/2.5/weather?units=metric&q=london&appid=5c881097ee4c93b1e66bdf57e34ab94d"
+      },
+      "response": {
+        "statusCode": 200,
+        "reasonPhrase": "OK",
+        "headers": {
+          "Server": "openresty",
+          "Date": "Fri, 16 Jul 2021 12:32:57 GMT",
+          "Connection": "keep-alive",
+          "X-Cache-Key": "/data/2.5/weather?q=london&units=metric",
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Allow-Credentials": "true",
+          "Access-Control-Allow-Methods": "GET, POST"
+        },
+        "content": {
+          "coord": {
+            "lon": -0.1257,
+            "lat": 51.5085
+          },
+          "weather": [
+            {
+              "id": 800,
+              "main": "Clear",
+              "description": "clear sky",
+              "icon": "01d"
+            }
+          ],
+          "base": "stations",
+          "main": {
+            "temp": 24.12,
+            "feels_like": 23.79,
+            "temp_min": 21.66,
+            "temp_max": 26.1,
+            "pressure": 1027,
+            "humidity": 46
+          },
+          "visibility": 10000,
+          "wind": {
+            "speed": 4.12,
+            "deg": 50
+          },
+          "clouds": {
+            "all": 0
+          },
+          "dt": 1626438252,
+          "sys": {
+            "type": 2,
+            "id": 268730,
+            "country": "GB",
+            "sunrise": 1626408125,
+            "sunset": 1626466238
+          },
+          "timezone": 3600,
+          "id": 2643743,
+          "name": "London",
+          "cod": 200
+        }
+      }
+    },
+    "name": "HttpRequest",
+    "id": "aa9c487c-42cc-4306-a8f4-df21b5b42b96",
+    "localTimestamp": "2021-07-16T18:02:58+05:30"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "text": "The weather in london is clear sky and the temperature is 24&deg;.",
+    "speak": "<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='en-us'><voice name='en-US-JennyNeural'>The weather in london is clear sky and the temperature is 24&deg;.</voice></speak>",
+    "replyToId": "58250276-236a-4e02-ad88-6f66d9e9db72",
+    "id": "89a61993-7a0b-4576-b5a9-0ae6eab7f90c",
+    "localTimestamp": "2021-07-16T18:02:58+05:30",
+    "timestamp": "2021-07-16T12:32:58.014Z"
+  },
+  {
+    "type": "trace",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "58250276-236a-4e02-ad88-6f66d9e9db72",
+    "label": "Bot State",
+    "valueType": "https://www.botframework.com/schemas/botState",
+    "value": {
+      "turn": {
+        "locale": "en-us",
+        "activity": {
+          "type": "message",
+          "id": "58250276-236a-4e02-ad88-6f66d9e9db72",
+          "timestamp": "2021-07-16T12:32:57.797Z",
+          "localTimestamp": "2021-07-16T12:32:57Z",
+          "serviceUrl": "http://localhost:5000",
+          "channelId": "emulator",
+          "from": {
+            "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+            "name": "",
+            "role": "user"
+          },
+          "conversation": {
+            "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+          },
+          "recipient": {
+            "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+            "name": "Bot",
+            "role": "bot"
+          },
+          "textFormat": "plain",
+          "locale": "en-us",
+          "text": "london",
+          "channelData": {
+            "clientActivityID": "16264387777648wl3k805g",
+            "clientTimestamp": "2021-07-16T12:32:57.764Z"
+          }
+        },
+        "dialogEvent": {
+          "Bubble": false,
+          "Name": "endOfActions",
+          "Value": null
+        },
+        "recognized": {
+          "text": "london",
+          "alteredText": null,
+          "intents": {
+            "None": {
+              "score": 1
+            }
+          },
+          "entities": {
+            "$instance": {}
+          },
+          "intent": "None",
+          "score": 1
+        },
+        "activityProcessed": true,
+        "lastresult": null,
+        "__repeatDialogId": "TrueIfCondition(=dialog.api_response.statusCode == 200|SetProperties[Microsoft.Bot.Builder.Dialogs.Adapti...)"
+      },
+      "conversation": {
+        "DialogState": {
+          "dialogStack": []
+        }
+      },
+      "user": {
+        "name": "avinash"
+      }
+    },
+    "name": "BotState",
+    "id": "75431b97-4a3a-4c0b-b8b3-fde5049265bb",
+    "localTimestamp": "2021-07-16T18:02:58+05:30",
+    "timestamp": "2021-07-16T12:32:58.019Z"
+  },
+  {
+    "channelData": {
+      "clientActivityID": "1626438784697npbemykdexo",
+      "clientTimestamp": "2021-07-16T12:33:04.697Z"
+    },
+    "text": "london",
+    "textFormat": "plain",
+    "type": "message",
+    "channelId": "emulator",
+    "from": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "name": "",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "timestamp": "2021-07-16T12:33:04.741Z",
+    "id": "12fdeca2-1f37-4b7b-bdf4-d625f17cb2d2",
+    "recipient": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "localTimestamp": "2021-07-16T18:03:04+05:30",
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "serviceUrl": "http://localhost:5000"
+  },
+  {
+    "type": "trace",
+    "timestamp": "2021-07-16T12:33:04.768Z",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "12fdeca2-1f37-4b7b-bdf4-d625f17cb2d2",
+    "label": "Regex RecognizerResult",
+    "valueType": "RecognizerResult",
+    "value": {
+      "text": "london",
+      "alteredText": null,
+      "intents": {
+        "None": {
+          "score": 1
+        }
+      },
+      "entities": {}
+    },
+    "name": "RegexRecognizer",
+    "id": "24472053-f903-4ccd-8492-38031b3a6d48",
+    "localTimestamp": "2021-07-16T18:03:04+05:30"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "text": "Sorry, I didn't get that.",
+    "speak": "<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='en-us'><voice name='en-US-JennyNeural'>Sorry, I didn't get that.</voice></speak>",
+    "replyToId": "12fdeca2-1f37-4b7b-bdf4-d625f17cb2d2",
+    "id": "c118cf2c-26a0-49f3-bb1e-47096202be26",
+    "localTimestamp": "2021-07-16T18:03:04+05:30",
+    "timestamp": "2021-07-16T12:33:04.780Z"
+  },
+  {
+    "type": "trace",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "12fdeca2-1f37-4b7b-bdf4-d625f17cb2d2",
+    "label": "Bot State",
+    "valueType": "https://www.botframework.com/schemas/botState",
+    "value": {
+      "turn": {
+        "locale": "en-us",
+        "activity": {
+          "type": "message",
+          "id": "12fdeca2-1f37-4b7b-bdf4-d625f17cb2d2",
+          "timestamp": "2021-07-16T12:33:04.741Z",
+          "localTimestamp": "2021-07-16T12:33:04Z",
+          "serviceUrl": "http://localhost:5000",
+          "channelId": "emulator",
+          "from": {
+            "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+            "name": "",
+            "role": "user"
+          },
+          "conversation": {
+            "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+          },
+          "recipient": {
+            "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+            "name": "Bot",
+            "role": "bot"
+          },
+          "textFormat": "plain",
+          "locale": "en-us",
+          "text": "london",
+          "channelData": {
+            "clientActivityID": "1626438784697npbemykdexo",
+            "clientTimestamp": "2021-07-16T12:33:04.697Z"
+          }
+        },
+        "dialogEvent": {
+          "Bubble": false,
+          "Name": "endOfActions",
+          "Value": null
+        },
+        "recognized": {
+          "text": "london",
+          "alteredText": null,
+          "intents": {
+            "None": {
+              "score": 1
+            }
+          },
+          "entities": {
+            "$instance": {}
+          },
+          "intent": "None",
+          "score": 1
+        },
+        "interrupted": true,
+        "lastresult": null
+      },
+      "conversation": {
+        "DialogState": {
+          "dialogStack": []
+        }
+      },
+      "user": {
+        "name": "avinash"
+      }
+    },
+    "name": "BotState",
+    "id": "49066b67-5714-425a-b2b6-bde750732506",
+    "localTimestamp": "2021-07-16T18:03:04+05:30",
+    "timestamp": "2021-07-16T12:33:04.785Z"
+  },
+  {
+    "channelData": {
+      "clientActivityID": "1626438787668rfh4020quqg",
+      "clientTimestamp": "2021-07-16T12:33:07.668Z"
+    },
+    "text": "weather",
+    "textFormat": "plain",
+    "type": "message",
+    "channelId": "emulator",
+    "from": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "name": "",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "timestamp": "2021-07-16T12:33:07.707Z",
+    "id": "6dba0952-9a69-4f02-a0c4-e5996d7087da",
+    "recipient": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "localTimestamp": "2021-07-16T18:03:07+05:30",
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "serviceUrl": "http://localhost:5000"
+  },
+  {
+    "type": "trace",
+    "timestamp": "2021-07-16T12:33:07.733Z",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "6dba0952-9a69-4f02-a0c4-e5996d7087da",
+    "label": "Regex RecognizerResult",
+    "valueType": "RecognizerResult",
+    "value": {
+      "text": "weather",
+      "alteredText": null,
+      "intents": {
+        "WeatherRequested": {
+          "score": 1,
+          "pattern": "weather"
+        }
+      },
+      "entities": {}
+    },
+    "name": "RegexRecognizer",
+    "id": "f7182b41-6f79-4a05-8f8e-67d1edd87a9e",
+    "localTimestamp": "2021-07-16T18:03:07+05:30"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "text": "Enter your city",
+    "speak": "<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='en-us'><voice name='en-US-JennyNeural'>Enter your city</voice></speak>",
+    "inputHint": "expectingInput",
+    "replyToId": "6dba0952-9a69-4f02-a0c4-e5996d7087da",
+    "id": "862e0575-1485-447e-962b-48e2a0e8b091",
+    "localTimestamp": "2021-07-16T18:03:07+05:30",
+    "timestamp": "2021-07-16T12:33:07.741Z"
+  },
+  {
+    "type": "trace",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "6dba0952-9a69-4f02-a0c4-e5996d7087da",
+    "label": "Bot State",
+    "valueType": "https://www.botframework.com/schemas/botState",
+    "value": {
+      "turn": {
+        "locale": "en-us",
+        "activity": {
+          "type": "message",
+          "id": "6dba0952-9a69-4f02-a0c4-e5996d7087da",
+          "timestamp": "2021-07-16T12:33:07.707Z",
+          "localTimestamp": "2021-07-16T12:33:07Z",
+          "serviceUrl": "http://localhost:5000",
+          "channelId": "emulator",
+          "from": {
+            "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+            "name": "",
+            "role": "user"
+          },
+          "conversation": {
+            "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+          },
+          "recipient": {
+            "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+            "name": "Bot",
+            "role": "bot"
+          },
+          "textFormat": "plain",
+          "locale": "en-us",
+          "text": "weather",
+          "channelData": {
+            "clientActivityID": "1626438787668rfh4020quqg",
+            "clientTimestamp": "2021-07-16T12:33:07.668Z"
+          }
+        },
+        "dialogEvent": {
+          "Bubble": false,
+          "Name": "beginDialog",
+          "Value": {}
+        },
+        "recognized": {
+          "text": "weather",
+          "alteredText": null,
+          "intents": {
+            "WeatherRequested": {
+              "score": 1,
+              "pattern": "weather"
+            }
+          },
+          "entities": {
+            "$instance": {}
+          },
+          "intent": "WeatherRequested",
+          "score": 1
+        },
+        "interrupted": true,
+        "activityProcessed": true
+      },
+      "dialog": {
+        "eventCounter": 1,
+        "_adaptive": {
+          "actions": [
+            {
+              "dialogId": "ActionScope[TextInput,HttpRequest[GET =`http://api.openweather...cxAlxZYQt112ebgglF8HDyz7a5uvisDXLc0EhHjQ1AY=]",
+              "options": null,
+              "dialogStack": [
+                {
+                  "id": "TextInput",
+                  "state": {
+                    "options": null,
+                    "turnCount": 1,
+                    "value": null
+                  },
+                  "StackIndex": null,
+                  "Version": null
+                },
+                {
+                  "id": "ActionScope[TextInput,HttpRequest[GET =`http://api.openweather...cxAlxZYQt112ebgglF8HDyz7a5uvisDXLc0EhHjQ1AY=]",
+                  "state": {
+                    "offset": 0
+                  },
+                  "StackIndex": null,
+                  "Version": null
+                }
+              ]
+            }
+          ]
+        },
+        "city": null
+      },
+      "this": {
+        "options": null,
+        "turnCount": 1,
+        "value": null
+      },
+      "conversation": {
+        "DialogState": {
+          "dialogStack": [
+            {
+              "id": "WeaatherBot",
+              "state": {
+                "eventCounter": 4,
+                "_adaptive": {
+                  "actions": [
+                    {
+                      "dialogId": "ActionScope[BeginDialog[GetWeather]]",
+                      "options": null,
+                      "dialogStack": [
+                        {
+                          "id": "GetWeather",
+                          "state": {
+                            "eventCounter": 1,
+                            "_adaptive": {
+                              "actions": [
+                                {
+                                  "dialogId": "ActionScope[TextInput,HttpRequest[GET =`http://api.openweather...cxAlxZYQt112ebgglF8HDyz7a5uvisDXLc0EhHjQ1AY=]",
+                                  "options": null,
+                                  "dialogStack": [
+                                    {
+                                      "id": "TextInput",
+                                      "state": {
+                                        "options": null,
+                                        "turnCount": 1,
+                                        "value": null
+                                      },
+                                      "StackIndex": null,
+                                      "Version": null
+                                    },
+                                    {
+                                      "id": "ActionScope[TextInput,HttpRequest[GET =`http://api.openweather...cxAlxZYQt112ebgglF8HDyz7a5uvisDXLc0EhHjQ1AY=]",
+                                      "state": {
+                                        "offset": 0
+                                      },
+                                      "StackIndex": null,
+                                      "Version": null
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            "city": null
+                          },
+                          "StackIndex": null,
+                          "Version": "qsylTZwmKNHvBVsuB6yDuiI7q9gdYDAEV8WLHrLbyL8="
+                        },
+                        {
+                          "id": "BeginDialog[GetWeather]",
+                          "state": {},
+                          "StackIndex": null,
+                          "Version": null
+                        },
+                        {
+                          "id": "ActionScope[BeginDialog[GetWeather]]",
+                          "state": {
+                            "offset": 0
+                          },
+                          "StackIndex": null,
+                          "Version": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "lastIntent": "WeatherRequested"
+              },
+              "StackIndex": null,
+              "Version": "CZKWI39W78GOuaeo238zIKyfq1e/Q13VKlZcGX/sPac="
+            }
+          ]
+        }
+      },
+      "user": {
+        "name": "avinash"
+      }
+    },
+    "name": "BotState",
+    "id": "6189f035-9e3f-4b0f-b0a1-5c0a601c6426",
+    "localTimestamp": "2021-07-16T18:03:07+05:30",
+    "timestamp": "2021-07-16T12:33:07.746Z"
+  },
+  {
+    "channelData": {
+      "clientActivityID": "1626438789863yjiscz27m7l",
+      "clientTimestamp": "2021-07-16T12:33:09.863Z"
+    },
+    "text": "alaska",
+    "textFormat": "plain",
+    "type": "message",
+    "channelId": "emulator",
+    "from": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "name": "",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "timestamp": "2021-07-16T12:33:09.899Z",
+    "id": "d34c4bcc-200e-4367-8383-865ae31eaf9c",
+    "recipient": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "localTimestamp": "2021-07-16T18:03:09+05:30",
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "serviceUrl": "http://localhost:5000"
+  },
+  {
+    "type": "trace",
+    "timestamp": "2021-07-16T12:33:10.516Z",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "d34c4bcc-200e-4367-8383-865ae31eaf9c",
+    "label": "HttpRequest[GET =`http://api.openweathermap.org/data/2.5/weather?units=metric&q=${dialog.city}&appid=5c881097ee4c93b1e66bdf57e34ab94d`]",
+    "valueType": "Microsoft.HttpRequest",
+    "value": {
+      "request": {
+        "method": "GET",
+        "url": "http://api.openweathermap.org/data/2.5/weather?units=metric&q=alaska&appid=5c881097ee4c93b1e66bdf57e34ab94d"
+      },
+      "response": {
+        "statusCode": 200,
+        "reasonPhrase": "OK",
+        "headers": {
+          "Server": "openresty",
+          "Date": "Fri, 16 Jul 2021 12:33:10 GMT",
+          "Connection": "keep-alive",
+          "X-Cache-Key": "/data/2.5/weather?q=alaska&units=metric",
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Allow-Credentials": "true",
+          "Access-Control-Allow-Methods": "GET, POST"
+        },
+        "content": {
+          "coord": {
+            "lon": -150.0003,
+            "lat": 64.0003
+          },
+          "weather": [
+            {
+              "id": 804,
+              "main": "Clouds",
+              "description": "overcast clouds",
+              "icon": "04d"
+            }
+          ],
+          "base": "stations",
+          "main": {
+            "temp": 9.68,
+            "feels_like": 8.16,
+            "temp_min": 9.68,
+            "temp_max": 9.68,
+            "pressure": 1017,
+            "humidity": 80,
+            "sea_level": 1017,
+            "grnd_level": 967
+          },
+          "visibility": 10000,
+          "wind": {
+            "speed": 2.95,
+            "deg": 190,
+            "gust": 4.2
+          },
+          "clouds": {
+            "all": 100
+          },
+          "dt": 1626438790,
+          "sys": {
+            "type": 1,
+            "id": 7719,
+            "country": "US",
+            "sunrise": 1626438010,
+            "sunset": 1626508298
+          },
+          "timezone": -28800,
+          "id": 5879092,
+          "name": "Alaska",
+          "cod": 200
+        }
+      }
+    },
+    "name": "HttpRequest",
+    "id": "fcc2f68e-054a-409c-af55-cdff68336df9",
+    "localTimestamp": "2021-07-16T18:03:10+05:30"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "text": "The weather in alaska is overcast clouds and the temperature is 10&deg;.",
+    "speak": "<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='en-us'><voice name='en-US-JennyNeural'>The weather in alaska is overcast clouds and the temperature is 10&deg;.</voice></speak>",
+    "replyToId": "d34c4bcc-200e-4367-8383-865ae31eaf9c",
+    "id": "2e6932d0-d657-4942-ae17-9a04e80c98e7",
+    "localTimestamp": "2021-07-16T18:03:10+05:30",
+    "timestamp": "2021-07-16T12:33:10.528Z"
+  },
+  {
+    "type": "trace",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "d34c4bcc-200e-4367-8383-865ae31eaf9c",
+    "label": "Bot State",
+    "valueType": "https://www.botframework.com/schemas/botState",
+    "value": {
+      "turn": {
+        "locale": "en-us",
+        "activity": {
+          "type": "message",
+          "id": "d34c4bcc-200e-4367-8383-865ae31eaf9c",
+          "timestamp": "2021-07-16T12:33:09.899Z",
+          "localTimestamp": "2021-07-16T12:33:09Z",
+          "serviceUrl": "http://localhost:5000",
+          "channelId": "emulator",
+          "from": {
+            "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+            "name": "",
+            "role": "user"
+          },
+          "conversation": {
+            "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+          },
+          "recipient": {
+            "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+            "name": "Bot",
+            "role": "bot"
+          },
+          "textFormat": "plain",
+          "locale": "en-us",
+          "text": "alaska",
+          "channelData": {
+            "clientActivityID": "1626438789863yjiscz27m7l",
+            "clientTimestamp": "2021-07-16T12:33:09.863Z"
+          }
+        },
+        "dialogEvent": {
+          "Bubble": false,
+          "Name": "endOfActions",
+          "Value": null
+        },
+        "recognized": {
+          "text": "alaska",
+          "alteredText": null,
+          "intents": {
+            "None": {
+              "score": 1
+            }
+          },
+          "entities": {
+            "$instance": {}
+          },
+          "intent": "None",
+          "score": 1
+        },
+        "activityProcessed": true,
+        "lastresult": null,
+        "__repeatDialogId": "TrueIfCondition(=dialog.api_response.statusCode == 200|SetProperties[Microsoft.Bot.Builder.Dialogs.Adapti...)"
+      },
+      "conversation": {
+        "DialogState": {
+          "dialogStack": []
+        }
+      },
+      "user": {
+        "name": "avinash"
+      }
+    },
+    "name": "BotState",
+    "id": "96fd7006-e59b-43c8-a72d-53b3c38d0340",
+    "localTimestamp": "2021-07-16T18:03:10+05:30",
+    "timestamp": "2021-07-16T12:33:10.532Z"
+  },
+  {
+    "channelData": {
+      "clientActivityID": "1626438797234mv3lz1dfl2",
+      "clientTimestamp": "2021-07-16T12:33:17.234Z"
+    },
+    "text": "weather",
+    "textFormat": "plain",
+    "type": "message",
+    "channelId": "emulator",
+    "from": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "name": "",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "timestamp": "2021-07-16T12:33:17.279Z",
+    "id": "3b403f65-8629-4299-a138-084421061efb",
+    "recipient": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "localTimestamp": "2021-07-16T18:03:17+05:30",
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "serviceUrl": "http://localhost:5000"
+  },
+  {
+    "type": "trace",
+    "timestamp": "2021-07-16T12:33:17.309Z",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "3b403f65-8629-4299-a138-084421061efb",
+    "label": "Regex RecognizerResult",
+    "valueType": "RecognizerResult",
+    "value": {
+      "text": "weather",
+      "alteredText": null,
+      "intents": {
+        "WeatherRequested": {
+          "score": 1,
+          "pattern": "weather"
+        }
+      },
+      "entities": {}
+    },
+    "name": "RegexRecognizer",
+    "id": "6b0a75de-78a1-4222-aa6e-ff7a81b73e9d",
+    "localTimestamp": "2021-07-16T18:03:17+05:30"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "text": "Enter your city",
+    "speak": "<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='en-us'><voice name='en-US-JennyNeural'>Enter your city</voice></speak>",
+    "inputHint": "expectingInput",
+    "replyToId": "3b403f65-8629-4299-a138-084421061efb",
+    "id": "1ba5d4d3-e572-4795-9b76-3f94b1fb6de3",
+    "localTimestamp": "2021-07-16T18:03:17+05:30",
+    "timestamp": "2021-07-16T12:33:17.319Z"
+  },
+  {
+    "type": "trace",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "3b403f65-8629-4299-a138-084421061efb",
+    "label": "Bot State",
+    "valueType": "https://www.botframework.com/schemas/botState",
+    "value": {
+      "turn": {
+        "locale": "en-us",
+        "activity": {
+          "type": "message",
+          "id": "3b403f65-8629-4299-a138-084421061efb",
+          "timestamp": "2021-07-16T12:33:17.279Z",
+          "localTimestamp": "2021-07-16T12:33:17Z",
+          "serviceUrl": "http://localhost:5000",
+          "channelId": "emulator",
+          "from": {
+            "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+            "name": "",
+            "role": "user"
+          },
+          "conversation": {
+            "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+          },
+          "recipient": {
+            "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+            "name": "Bot",
+            "role": "bot"
+          },
+          "textFormat": "plain",
+          "locale": "en-us",
+          "text": "weather",
+          "channelData": {
+            "clientActivityID": "1626438797234mv3lz1dfl2",
+            "clientTimestamp": "2021-07-16T12:33:17.234Z"
+          }
+        },
+        "dialogEvent": {
+          "Bubble": false,
+          "Name": "beginDialog",
+          "Value": {}
+        },
+        "recognized": {
+          "text": "weather",
+          "alteredText": null,
+          "intents": {
+            "WeatherRequested": {
+              "score": 1,
+              "pattern": "weather"
+            }
+          },
+          "entities": {
+            "$instance": {}
+          },
+          "intent": "WeatherRequested",
+          "score": 1
+        },
+        "interrupted": true,
+        "activityProcessed": true
+      },
+      "dialog": {
+        "eventCounter": 1,
+        "_adaptive": {
+          "actions": [
+            {
+              "dialogId": "ActionScope[TextInput,HttpRequest[GET =`http://api.openweather...cxAlxZYQt112ebgglF8HDyz7a5uvisDXLc0EhHjQ1AY=]",
+              "options": null,
+              "dialogStack": [
+                {
+                  "id": "TextInput",
+                  "state": {
+                    "options": null,
+                    "turnCount": 1,
+                    "value": null
+                  },
+                  "StackIndex": null,
+                  "Version": null
+                },
+                {
+                  "id": "ActionScope[TextInput,HttpRequest[GET =`http://api.openweather...cxAlxZYQt112ebgglF8HDyz7a5uvisDXLc0EhHjQ1AY=]",
+                  "state": {
+                    "offset": 0
+                  },
+                  "StackIndex": null,
+                  "Version": null
+                }
+              ]
+            }
+          ]
+        },
+        "city": null
+      },
+      "this": {
+        "options": null,
+        "turnCount": 1,
+        "value": null
+      },
+      "conversation": {
+        "DialogState": {
+          "dialogStack": [
+            {
+              "id": "WeaatherBot",
+              "state": {
+                "eventCounter": 4,
+                "_adaptive": {
+                  "actions": [
+                    {
+                      "dialogId": "ActionScope[BeginDialog[GetWeather]]",
+                      "options": null,
+                      "dialogStack": [
+                        {
+                          "id": "GetWeather",
+                          "state": {
+                            "eventCounter": 1,
+                            "_adaptive": {
+                              "actions": [
+                                {
+                                  "dialogId": "ActionScope[TextInput,HttpRequest[GET =`http://api.openweather...cxAlxZYQt112ebgglF8HDyz7a5uvisDXLc0EhHjQ1AY=]",
+                                  "options": null,
+                                  "dialogStack": [
+                                    {
+                                      "id": "TextInput",
+                                      "state": {
+                                        "options": null,
+                                        "turnCount": 1,
+                                        "value": null
+                                      },
+                                      "StackIndex": null,
+                                      "Version": null
+                                    },
+                                    {
+                                      "id": "ActionScope[TextInput,HttpRequest[GET =`http://api.openweather...cxAlxZYQt112ebgglF8HDyz7a5uvisDXLc0EhHjQ1AY=]",
+                                      "state": {
+                                        "offset": 0
+                                      },
+                                      "StackIndex": null,
+                                      "Version": null
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            "city": null
+                          },
+                          "StackIndex": null,
+                          "Version": "qsylTZwmKNHvBVsuB6yDuiI7q9gdYDAEV8WLHrLbyL8="
+                        },
+                        {
+                          "id": "BeginDialog[GetWeather]",
+                          "state": {},
+                          "StackIndex": null,
+                          "Version": null
+                        },
+                        {
+                          "id": "ActionScope[BeginDialog[GetWeather]]",
+                          "state": {
+                            "offset": 0
+                          },
+                          "StackIndex": null,
+                          "Version": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "lastIntent": "WeatherRequested"
+              },
+              "StackIndex": null,
+              "Version": "CZKWI39W78GOuaeo238zIKyfq1e/Q13VKlZcGX/sPac="
+            }
+          ]
+        }
+      },
+      "user": {
+        "name": "avinash"
+      }
+    },
+    "name": "BotState",
+    "id": "473041de-1d40-49c7-a2fb-c9b705b8d07b",
+    "localTimestamp": "2021-07-16T18:03:17+05:30",
+    "timestamp": "2021-07-16T12:33:17.324Z"
+  },
+  {
+    "channelData": {
+      "clientActivityID": "1626438798884579h5qdr9w",
+      "clientTimestamp": "2021-07-16T12:33:18.884Z"
+    },
+    "text": "sydney",
+    "textFormat": "plain",
+    "type": "message",
+    "channelId": "emulator",
+    "from": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "name": "",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "timestamp": "2021-07-16T12:33:18.928Z",
+    "id": "77348e3b-75f1-4514-a8f7-9658f0a2a03b",
+    "recipient": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "localTimestamp": "2021-07-16T18:03:18+05:30",
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "serviceUrl": "http://localhost:5000"
+  },
+  {
+    "type": "trace",
+    "timestamp": "2021-07-16T12:33:19.138Z",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "77348e3b-75f1-4514-a8f7-9658f0a2a03b",
+    "label": "HttpRequest[GET =`http://api.openweathermap.org/data/2.5/weather?units=metric&q=${dialog.city}&appid=5c881097ee4c93b1e66bdf57e34ab94d`]",
+    "valueType": "Microsoft.HttpRequest",
+    "value": {
+      "request": {
+        "method": "GET",
+        "url": "http://api.openweathermap.org/data/2.5/weather?units=metric&q=sydney&appid=5c881097ee4c93b1e66bdf57e34ab94d"
+      },
+      "response": {
+        "statusCode": 200,
+        "reasonPhrase": "OK",
+        "headers": {
+          "Server": "openresty",
+          "Date": "Fri, 16 Jul 2021 12:33:18 GMT",
+          "Connection": "keep-alive",
+          "X-Cache-Key": "/data/2.5/weather?q=sydney&units=metric",
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Allow-Credentials": "true",
+          "Access-Control-Allow-Methods": "GET, POST"
+        },
+        "content": {
+          "coord": {
+            "lon": 151.2073,
+            "lat": -33.8679
+          },
+          "weather": [
+            {
+              "id": 801,
+              "main": "Clouds",
+              "description": "few clouds",
+              "icon": "02n"
+            }
+          ],
+          "base": "stations",
+          "main": {
+            "temp": 12.99,
+            "feels_like": 11.75,
+            "temp_min": 12.02,
+            "temp_max": 14.21,
+            "pressure": 996,
+            "humidity": 54
+          },
+          "visibility": 10000,
+          "wind": {
+            "speed": 0.89,
+            "deg": 311,
+            "gust": 4.47
+          },
+          "clouds": {
+            "all": 20
+          },
+          "dt": 1626438298,
+          "sys": {
+            "type": 2,
+            "id": 2018875,
+            "country": "AU",
+            "sunrise": 1626382653,
+            "sunset": 1626419066
+          },
+          "timezone": 36000,
+          "id": 2147714,
+          "name": "Sydney",
+          "cod": 200
+        }
+      }
+    },
+    "name": "HttpRequest",
+    "id": "202174b8-b897-4a08-b3cf-bf3695b92037",
+    "localTimestamp": "2021-07-16T18:03:19+05:30"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "text": "The weather in sydney is few clouds and the temperature is 13&deg;.",
+    "speak": "<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='en-us'><voice name='en-US-JennyNeural'>The weather in sydney is few clouds and the temperature is 13&deg;.</voice></speak>",
+    "replyToId": "77348e3b-75f1-4514-a8f7-9658f0a2a03b",
+    "id": "9675a488-96b9-4c4b-abcc-23d337e91b2b",
+    "localTimestamp": "2021-07-16T18:03:19+05:30",
+    "timestamp": "2021-07-16T12:33:19.148Z"
+  },
+  {
+    "type": "trace",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "77348e3b-75f1-4514-a8f7-9658f0a2a03b",
+    "label": "Bot State",
+    "valueType": "https://www.botframework.com/schemas/botState",
+    "value": {
+      "turn": {
+        "locale": "en-us",
+        "activity": {
+          "type": "message",
+          "id": "77348e3b-75f1-4514-a8f7-9658f0a2a03b",
+          "timestamp": "2021-07-16T12:33:18.928Z",
+          "localTimestamp": "2021-07-16T12:33:18Z",
+          "serviceUrl": "http://localhost:5000",
+          "channelId": "emulator",
+          "from": {
+            "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+            "name": "",
+            "role": "user"
+          },
+          "conversation": {
+            "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+          },
+          "recipient": {
+            "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+            "name": "Bot",
+            "role": "bot"
+          },
+          "textFormat": "plain",
+          "locale": "en-us",
+          "text": "sydney",
+          "channelData": {
+            "clientActivityID": "1626438798884579h5qdr9w",
+            "clientTimestamp": "2021-07-16T12:33:18.884Z"
+          }
+        },
+        "dialogEvent": {
+          "Bubble": false,
+          "Name": "endOfActions",
+          "Value": null
+        },
+        "recognized": {
+          "text": "sydney",
+          "alteredText": null,
+          "intents": {
+            "None": {
+              "score": 1
+            }
+          },
+          "entities": {
+            "$instance": {}
+          },
+          "intent": "None",
+          "score": 1
+        },
+        "activityProcessed": true,
+        "lastresult": null,
+        "__repeatDialogId": "TrueIfCondition(=dialog.api_response.statusCode == 200|SetProperties[Microsoft.Bot.Builder.Dialogs.Adapti...)"
+      },
+      "conversation": {
+        "DialogState": {
+          "dialogStack": []
+        }
+      },
+      "user": {
+        "name": "avinash"
+      }
+    },
+    "name": "BotState",
+    "id": "ebdab085-7a7c-4682-af3f-896e6f5840ca",
+    "localTimestamp": "2021-07-16T18:03:19+05:30",
+    "timestamp": "2021-07-16T12:33:19.152Z"
+  },
+  {
+    "channelData": {
+      "clientActivityID": "1626438807147oxoe01ndm",
+      "clientTimestamp": "2021-07-16T12:33:27.147Z"
+    },
+    "text": "weather",
+    "textFormat": "plain",
+    "type": "message",
+    "channelId": "emulator",
+    "from": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "name": "",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "timestamp": "2021-07-16T12:33:27.191Z",
+    "id": "3e6ca498-4590-4997-a892-545e2cbf73bc",
+    "recipient": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "localTimestamp": "2021-07-16T18:03:27+05:30",
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "serviceUrl": "http://localhost:5000"
+  },
+  {
+    "type": "trace",
+    "timestamp": "2021-07-16T12:33:27.218Z",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "3e6ca498-4590-4997-a892-545e2cbf73bc",
+    "label": "Regex RecognizerResult",
+    "valueType": "RecognizerResult",
+    "value": {
+      "text": "weather",
+      "alteredText": null,
+      "intents": {
+        "WeatherRequested": {
+          "score": 1,
+          "pattern": "weather"
+        }
+      },
+      "entities": {}
+    },
+    "name": "RegexRecognizer",
+    "id": "759efabf-c58b-40aa-8415-1c014b64d208",
+    "localTimestamp": "2021-07-16T18:03:27+05:30"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "text": "Enter your city",
+    "speak": "<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='en-us'><voice name='en-US-JennyNeural'>Enter your city</voice></speak>",
+    "inputHint": "expectingInput",
+    "replyToId": "3e6ca498-4590-4997-a892-545e2cbf73bc",
+    "id": "2aec4cfc-4eaa-4455-bea9-55e5d8d8d4b4",
+    "localTimestamp": "2021-07-16T18:03:27+05:30",
+    "timestamp": "2021-07-16T12:33:27.227Z"
+  },
+  {
+    "type": "trace",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "3e6ca498-4590-4997-a892-545e2cbf73bc",
+    "label": "Bot State",
+    "valueType": "https://www.botframework.com/schemas/botState",
+    "value": {
+      "turn": {
+        "locale": "en-us",
+        "activity": {
+          "type": "message",
+          "id": "3e6ca498-4590-4997-a892-545e2cbf73bc",
+          "timestamp": "2021-07-16T12:33:27.191Z",
+          "localTimestamp": "2021-07-16T12:33:27Z",
+          "serviceUrl": "http://localhost:5000",
+          "channelId": "emulator",
+          "from": {
+            "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+            "name": "",
+            "role": "user"
+          },
+          "conversation": {
+            "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+          },
+          "recipient": {
+            "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+            "name": "Bot",
+            "role": "bot"
+          },
+          "textFormat": "plain",
+          "locale": "en-us",
+          "text": "weather",
+          "channelData": {
+            "clientActivityID": "1626438807147oxoe01ndm",
+            "clientTimestamp": "2021-07-16T12:33:27.147Z"
+          }
+        },
+        "dialogEvent": {
+          "Bubble": false,
+          "Name": "beginDialog",
+          "Value": {}
+        },
+        "recognized": {
+          "text": "weather",
+          "alteredText": null,
+          "intents": {
+            "WeatherRequested": {
+              "score": 1,
+              "pattern": "weather"
+            }
+          },
+          "entities": {
+            "$instance": {}
+          },
+          "intent": "WeatherRequested",
+          "score": 1
+        },
+        "interrupted": true,
+        "activityProcessed": true
+      },
+      "dialog": {
+        "eventCounter": 1,
+        "_adaptive": {
+          "actions": [
+            {
+              "dialogId": "ActionScope[TextInput,HttpRequest[GET =`http://api.openweather...cxAlxZYQt112ebgglF8HDyz7a5uvisDXLc0EhHjQ1AY=]",
+              "options": null,
+              "dialogStack": [
+                {
+                  "id": "TextInput",
+                  "state": {
+                    "options": null,
+                    "turnCount": 1,
+                    "value": null
+                  },
+                  "StackIndex": null,
+                  "Version": null
+                },
+                {
+                  "id": "ActionScope[TextInput,HttpRequest[GET =`http://api.openweather...cxAlxZYQt112ebgglF8HDyz7a5uvisDXLc0EhHjQ1AY=]",
+                  "state": {
+                    "offset": 0
+                  },
+                  "StackIndex": null,
+                  "Version": null
+                }
+              ]
+            }
+          ]
+        },
+        "city": null
+      },
+      "this": {
+        "options": null,
+        "turnCount": 1,
+        "value": null
+      },
+      "conversation": {
+        "DialogState": {
+          "dialogStack": [
+            {
+              "id": "WeaatherBot",
+              "state": {
+                "eventCounter": 4,
+                "_adaptive": {
+                  "actions": [
+                    {
+                      "dialogId": "ActionScope[BeginDialog[GetWeather]]",
+                      "options": null,
+                      "dialogStack": [
+                        {
+                          "id": "GetWeather",
+                          "state": {
+                            "eventCounter": 1,
+                            "_adaptive": {
+                              "actions": [
+                                {
+                                  "dialogId": "ActionScope[TextInput,HttpRequest[GET =`http://api.openweather...cxAlxZYQt112ebgglF8HDyz7a5uvisDXLc0EhHjQ1AY=]",
+                                  "options": null,
+                                  "dialogStack": [
+                                    {
+                                      "id": "TextInput",
+                                      "state": {
+                                        "options": null,
+                                        "turnCount": 1,
+                                        "value": null
+                                      },
+                                      "StackIndex": null,
+                                      "Version": null
+                                    },
+                                    {
+                                      "id": "ActionScope[TextInput,HttpRequest[GET =`http://api.openweather...cxAlxZYQt112ebgglF8HDyz7a5uvisDXLc0EhHjQ1AY=]",
+                                      "state": {
+                                        "offset": 0
+                                      },
+                                      "StackIndex": null,
+                                      "Version": null
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            "city": null
+                          },
+                          "StackIndex": null,
+                          "Version": "qsylTZwmKNHvBVsuB6yDuiI7q9gdYDAEV8WLHrLbyL8="
+                        },
+                        {
+                          "id": "BeginDialog[GetWeather]",
+                          "state": {},
+                          "StackIndex": null,
+                          "Version": null
+                        },
+                        {
+                          "id": "ActionScope[BeginDialog[GetWeather]]",
+                          "state": {
+                            "offset": 0
+                          },
+                          "StackIndex": null,
+                          "Version": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "lastIntent": "WeatherRequested"
+              },
+              "StackIndex": null,
+              "Version": "CZKWI39W78GOuaeo238zIKyfq1e/Q13VKlZcGX/sPac="
+            }
+          ]
+        }
+      },
+      "user": {
+        "name": "avinash"
+      }
+    },
+    "name": "BotState",
+    "id": "b1ba64dd-5537-4d7e-8efd-9bc7498ebe68",
+    "localTimestamp": "2021-07-16T18:03:27+05:30",
+    "timestamp": "2021-07-16T12:33:27.230Z"
+  },
+  {
+    "channelData": {
+      "clientActivityID": "1626438812464mag2evk38nl",
+      "clientTimestamp": "2021-07-16T12:33:32.464Z"
+    },
+    "text": "antarctica",
+    "textFormat": "plain",
+    "type": "message",
+    "channelId": "emulator",
+    "from": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "name": "",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "timestamp": "2021-07-16T12:33:32.509Z",
+    "id": "bfffd9e5-4984-426f-8b1a-1069578f3058",
+    "recipient": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "localTimestamp": "2021-07-16T18:03:32+05:30",
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "serviceUrl": "http://localhost:5000"
+  },
+  {
+    "type": "trace",
+    "timestamp": "2021-07-16T12:33:34.004Z",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "bfffd9e5-4984-426f-8b1a-1069578f3058",
+    "label": "HttpRequest[GET =`http://api.openweathermap.org/data/2.5/weather?units=metric&q=${dialog.city}&appid=5c881097ee4c93b1e66bdf57e34ab94d`]",
+    "valueType": "Microsoft.HttpRequest",
+    "value": {
+      "request": {
+        "method": "GET",
+        "url": "http://api.openweathermap.org/data/2.5/weather?units=metric&q=antarctica&appid=5c881097ee4c93b1e66bdf57e34ab94d"
+      },
+      "response": {
+        "statusCode": 200,
+        "reasonPhrase": "OK",
+        "headers": {
+          "Server": "openresty",
+          "Date": "Fri, 16 Jul 2021 12:33:33 GMT",
+          "Connection": "keep-alive",
+          "X-Cache-Key": "/data/2.5/weather?q=antarctica&units=metric",
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Allow-Credentials": "true",
+          "Access-Control-Allow-Methods": "GET, POST"
+        },
+        "content": {
+          "coord": {
+            "lon": 16.4063,
+            "lat": -78.1586
+          },
+          "weather": [
+            {
+              "id": 804,
+              "main": "Clouds",
+              "description": "overcast clouds",
+              "icon": "04n"
+            }
+          ],
+          "base": "stations",
+          "main": {
+            "temp": -39.06,
+            "feels_like": -46.06,
+            "temp_min": -39.06,
+            "temp_max": -39.06,
+            "pressure": 1006,
+            "humidity": 91,
+            "sea_level": 1006,
+            "grnd_level": 644
+          },
+          "visibility": 4110,
+          "wind": {
+            "speed": 8.31,
+            "deg": 15,
+            "gust": 13.77
+          },
+          "clouds": {
+            "all": 99
+          },
+          "dt": 1626438812,
+          "sys": {
+            "sunrise": 0,
+            "sunset": 0
+          },
+          "timezone": 7200,
+          "id": 6255152,
+          "name": "Antarctica",
+          "cod": 200
+        }
+      }
+    },
+    "name": "HttpRequest",
+    "id": "209501ea-f567-4662-aea3-e569e9c90cf8",
+    "localTimestamp": "2021-07-16T18:03:34+05:30"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "text": "The weather in antarctica is overcast clouds and the temperature is -39&deg;.",
+    "speak": "<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='en-us'><voice name='en-US-JennyNeural'>The weather in antarctica is overcast clouds and the temperature is -39&deg;.</voice></speak>",
+    "replyToId": "bfffd9e5-4984-426f-8b1a-1069578f3058",
+    "id": "5a0c4ba1-17af-49d0-97ec-3a321bdc6e9e",
+    "localTimestamp": "2021-07-16T18:03:34+05:30",
+    "timestamp": "2021-07-16T12:33:34.014Z"
+  },
+  {
+    "type": "trace",
+    "serviceUrl": "http://localhost:5000",
+    "channelId": "emulator",
+    "from": {
+      "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+    },
+    "recipient": {
+      "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+      "role": "user"
+    },
+    "locale": "en-us",
+    "replyToId": "bfffd9e5-4984-426f-8b1a-1069578f3058",
+    "label": "Bot State",
+    "valueType": "https://www.botframework.com/schemas/botState",
+    "value": {
+      "turn": {
+        "locale": "en-us",
+        "activity": {
+          "type": "message",
+          "id": "bfffd9e5-4984-426f-8b1a-1069578f3058",
+          "timestamp": "2021-07-16T12:33:32.509Z",
+          "localTimestamp": "2021-07-16T12:33:32Z",
+          "serviceUrl": "http://localhost:5000",
+          "channelId": "emulator",
+          "from": {
+            "id": "5859a4cb-7602-4bd3-8bc2-a4d6df0a3709",
+            "name": "",
+            "role": "user"
+          },
+          "conversation": {
+            "id": "bf5884c7-f21e-4040-8c5a-9c26ef8d7e0e|livechat"
+          },
+          "recipient": {
+            "id": "ea22000e-6965-4998-83f9-72830f373bc8",
+            "name": "Bot",
+            "role": "bot"
+          },
+          "textFormat": "plain",
+          "locale": "en-us",
+          "text": "antarctica",
+          "channelData": {
+            "clientActivityID": "1626438812464mag2evk38nl",
+            "clientTimestamp": "2021-07-16T12:33:32.464Z"
+          }
+        },
+        "dialogEvent": {
+          "Bubble": false,
+          "Name": "endOfActions",
+          "Value": null
+        },
+        "recognized": {
+          "text": "antarctica",
+          "alteredText": null,
+          "intents": {
+            "None": {
+              "score": 1
+            }
+          },
+          "entities": {
+            "$instance": {}
+          },
+          "intent": "None",
+          "score": 1
+        },
+        "activityProcessed": true,
+        "lastresult": null,
+        "__repeatDialogId": "TrueIfCondition(=dialog.api_response.statusCode == 200|SetProperties[Microsoft.Bot.Builder.Dialogs.Adapti...)"
+      },
+      "conversation": {
+        "DialogState": {
+          "dialogStack": []
+        }
+      },
+      "user": {
+        "name": "avinash"
+      }
+    },
+    "name": "BotState",
+    "id": "f3c5b36c-5408-45e0-90fd-655290106661",
+    "localTimestamp": "2021-07-16T18:03:34+05:30",
+    "timestamp": "2021-07-16T12:33:34.018Z"
+  }
+]

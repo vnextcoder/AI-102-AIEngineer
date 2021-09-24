@@ -1,0 +1,64 @@
+[import](common.lg)
+
+# DescribeWeather(weather)
+- It is "${dialog.weather}" in ${user.postalcode} and the temperature is ${dialog.fahrenheit}&deg;F or ${dialog.celsius}&deg;C. Have a nice day.
+
+
+# TextInput_Prompt_OvIkHp()
+[Activity
+    Text = Enter your PostCode
+    SuggestedActions =  help | cancel
+]
+
+# SendActivity_DTcpyp()
+[Activity
+    Text = I got an error: ${dialog.api_response.content.message}.
+]
+
+# LogAction_Text_029cc5()
+[ThumbnailCard
+    title = Weather for ${dialog.city}
+    text = ${dialog.weather} (${dialog.temp}&deg;)
+    image = http://openweathermap.org/img/w/${dialog.icon}.png
+]
+# SendActivity_ACIako()
+[Activity
+    Text = Let's check the weather.
+]
+
+# TextInput_InvalidPrompt_OvIkHp()
+[Activity
+    Text = ${TextInput_InvalidPrompt_OvIkHp_text()}
+]
+
+# TextInput_InvalidPrompt_OvIkHp_text()
+- ```Sorry, '${this.value}' is not valid. I'm looking for a 5 digit number as postal code. Please specify a 5 digit postal code in the format 12345.
+```
+# TextInput_UnrecognizedPrompt_OvIkHp()
+[Activity
+    Text = Sorry, I do not understand '${this.value}'. Please specify a 5 digit postal code in the format 12345.
+]
+
+# SendActivity_rXqSH3()
+[Activity
+    Text = ${SendActivity_rXqSH3_text()}
+    Speak = ${SendActivity_rXqSH3_speak()}
+    Attachments = ${json(SendActivity_rXqSH3_attachment_6wW5QH())}
+]
+
+# SendActivity_rXqSH3_attachment_6wW5QH()
+[ThumbnailCard
+    title = Weather in ${dialog.city} in ${dialog.country}
+    text =  ${DescribeWeather(dialog.weather)} 
+    image = http://openweathermap.org/img/wn/${dialog.icon}@2x.png
+]
+# SendActivity_rXqSH3_text()
+- ```${DescribeWeather(dialog.weather)}
+```
+# SendActivity_rXqSH3_speak()
+- ```${DescribeWeather(dialog.weather)}
+```
+# SendActivity_2I3TFF()
+[Activity
+    Text = city is ${user.postalcode}
+]

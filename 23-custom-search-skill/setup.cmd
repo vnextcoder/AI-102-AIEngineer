@@ -2,15 +2,15 @@
 SETLOCAL ENABLEDELAYEDEXPANSION
 
 rem Set values for your subscription and resource group
-set subscription_id=YOUR_SUBSCRIPTION_ID
-set resource_group=YOUR_RESOURCE_GROUP
-set location=YOUR_LOCATION_NAME
+set subscription_id=xxxxxxxxxxxxxxxxxxxxx
+set resource_group=cogrg2
+set location=westus2
 
 rem Get random numbers to create unique resource names
 set unique_id=!random!!random!
 
 echo Creating storage...
-call az storage account create --name ai102str!unique_id! --subscription !subscription_id! --resource-group !resource_group! --location !location! --sku Standard_LRS --encryption-services blob --default-action Allow --output none
+call az storage account create --name ai102str!unique_id! --subscription !subscription_id! --resource-group !resource_group! --location !location! --sku Standard_LRS --encryption-services blob --default-action Allow 
 
 echo Uploading files...
 rem Hack to get storage key

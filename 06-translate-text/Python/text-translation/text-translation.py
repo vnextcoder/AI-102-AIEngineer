@@ -39,7 +39,31 @@ def GetLanguage(text):
     language = 'en'
 
     # Use the Translator detect function
+    # Use the Translator detect function
+    path = '/detect'
+    url = translator_endpoint + path
 
+    # Build the request
+    params = {
+        'api-version': '3.0'
+    }
+
+    headers = {
+    'Ocp-Apim-Subscription-Key': cog_key,
+    'Ocp-Apim-Subscription-Region': cog_region,
+    'Content-type': 'application/json'
+    }
+
+    body = [{
+        'text': text
+    }]
+
+    # Send the request and get response
+    request = requests.post(url, params=params, headers=headers, json=body)
+    response = request.json()
+
+    # Parse JSON array and get language
+    language = response[0]["language"]
 
     # Return the language
     return language
@@ -48,10 +72,38 @@ def Translate(text, source_language):
     translation = ''
 
     # Use the Translator translate function
+    path = '/translate'
+    url = translator_endpoint + path
 
+    # Build the request
+    params = {
+        'api-version': '3.0',
+        'from': source_language,
+        'to': ['en','hi']
+    }
 
+    headers = {
+        'Ocp-Apim-Subscription-Key': cog_key,
+        'Ocp-Apim-Subscription-Region': cog_region,
+        'Content-type': 'application/json'
+    }
+
+    body = [{
+        'text': text
+    }]
+
+    # Send the request and get response
+    request = requests.post(url, params=params, headers=headers, json=body)
+    response = request.json()
+
+    # Parse JSON array and get translation
+    translation1 = response[0]["translations"][0]["text"]
+    
+    translation2 = response[0]["translations"][1]["text"]
+    print ("translation in hindi")
+    print (translation2)
     # Return the translation
-    return translation
+    return translation1
 
 if __name__ == "__main__":
     main()

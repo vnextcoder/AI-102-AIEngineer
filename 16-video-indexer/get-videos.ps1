@@ -1,5 +1,7 @@
-$account_id="YOUR_ACCOUNT_ID"
-$api_key="YOUR_API_KEY"
+$account_id="xxxxxxxxxxxxxxxx"
+# get it at https://www.videoindexer.ai/account/a81bb724-8776-4531-a9ca-4e4a04e9561b/settings
+$api_key="xxxxxxxxxxxxxx"
+# get it at https://api-portal.videoindexer.ai/profile
 $location="trial"
 
 # Call the AccessToken method with the API key in the header to get an access token

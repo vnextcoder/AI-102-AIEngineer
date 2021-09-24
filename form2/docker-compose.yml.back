@@ -1,0 +1,28 @@
+version: "3.9"
+services:
+  azure-cognitive-service-invoice:
+    container_name: azure-cognitive-service-invoice
+    image: mcr.microsoft.com/azure-cognitive-services/form-recognizer/invoice
+    environment:
+      - EULA=accept
+      - billing=https://forminterceptor.cognitiveservices.azure.com/
+      - apikey=c44a23b9496a4250be3f6ed7cf161b2b
+      - AzureCognitiveServiceLayoutHost=http://azure-cognitive-service-layout:5000
+    ports:
+      - "5000:5050"
+    networks:
+      - ocrvnet
+  azure-cognitive-service-layout:
+    container_name: azure-cognitive-service-layout
+    image: mcr.microsoft.com/azure-cognitive-services/form-recognizer/layout
+    user: root
+    environment:
+      - EULA=accept
+      - billing=https://forminterceptor.cognitiveservices.azure.com/
+      - apikey=c44a23b9496a4250be3f6ed7cf161b2b
+    networks:
+      - ocrvnet
+
+networks:
+  ocrvnet:
+    driver: bridge

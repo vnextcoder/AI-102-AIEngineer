@@ -1,0 +1,184 @@
+PS C:\avinash\AI-102-AIEngineer\23-custom-search-skill> .\setup.cmd
+Creating storage...
+{
+  "accessTier": "Hot",
+  "allowBlobPublicAccess": null,
+  "allowCrossTenantReplication": null,
+  "allowSharedKeyAccess": null,
+  "azureFilesIdentityBasedAuthentication": null,
+  "blobRestoreStatus": null,
+  "creationTime": "2021-07-15T14:17:07.304603+00:00",
+  "customDomain": null,
+  "enableHttpsTrafficOnly": true,
+  "enableNfsV3": null,
+  "encryption": {
+    "encryptionIdentity": null,
+    "keySource": "Microsoft.Storage",
+    "keyVaultProperties": null,
+    "requireInfrastructureEncryption": null,
+    "services": {
+      "blob": {
+        "enabled": true,
+        "keyType": "Account",
+        "lastEnabledTime": "2021-07-15T14:17:07.398395+00:00"
+      },
+      "file": {
+        "enabled": true,
+        "keyType": "Account",
+        "lastEnabledTime": "2021-07-15T14:17:07.398395+00:00"
+      },
+      "queue": null,
+      "table": null
+    }
+  },
+  "extendedLocation": null,
+  "failoverInProgress": null,
+  "geoReplicationStats": null,
+  "id": "/subscriptions/3fc3fcce-a2d3-4ccd-8c46-a0ba8692f7b0/resourceGroups/cogrg2/providers/Microsoft.Storage/storageAccounts/ai102str3103723193",
+  "identity": null,
+  "isHnsEnabled": null,
+  "keyCreationTime": {
+    "key1": "2021-07-15T14:17:07.398395+00:00",
+    "key2": "2021-07-15T14:17:07.398395+00:00"
+  },
+  "keyPolicy": null,
+  "kind": "StorageV2",
+  "largeFileSharesState": null,
+  "lastGeoFailoverTime": null,
+  "location": "westus2",
+  "minimumTlsVersion": null,
+  "name": "ai102str3103723193",
+  "networkRuleSet": {
+    "bypass": "AzureServices",
+    "defaultAction": "Allow",
+    "ipRules": [],
+    "resourceAccessRules": null,
+    "virtualNetworkRules": []
+  },
+  "primaryEndpoints": {
+    "blob": "https://ai102str3103723193.blob.core.windows.net/",
+    "dfs": "https://ai102str3103723193.dfs.core.windows.net/",
+    "file": "https://ai102str3103723193.file.core.windows.net/",
+    "internetEndpoints": null,
+    "microsoftEndpoints": null,
+    "queue": "https://ai102str3103723193.queue.core.windows.net/",
+    "table": "https://ai102str3103723193.table.core.windows.net/",
+    "web": "https://ai102str3103723193.z5.web.core.windows.net/"
+  },
+  "primaryLocation": "westus2",
+  "privateEndpointConnections": [],
+  "provisioningState": "Succeeded",
+  "resourceGroup": "cogrg2",
+  "routingPreference": null,
+  "sasPolicy": null,
+  "secondaryEndpoints": null,
+  "secondaryLocation": null,
+  "sku": {
+    "name": "Standard_LRS",
+    "tier": "Standard"
+  },
+  "statusOfPrimary": "available",
+  "statusOfSecondary": null,
+  "tags": {},
+  "type": "Microsoft.Storage/storageAccounts"
+}
+Uploading files...
+Finished[#############################################################]  100.0000%
+Creating cognitive services account...
+Notice
+I certify that use of this service is not by or for a police department in the United States.
+Creating search service...
+(If this gets stuck at '- Running ..' for more than a minute, press CTRL+C then select N)
+-------------------------------------
+Storage account: ai102str3103723193
+{
+  "connectionString": "DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=ai102str3103723193;AccountKey=R+8vJu7MlmdO3o0pymCTdS9/ZnsCzABRxO4JZ571/Ual1tMI/xYf5PsxyJoVCyvARsQckCk/QS+D6uZi7Zij0A=="
+}
+----
+Cognitive Services account: ai102cog3103723193
+{
+  "key1": "90dbe67fd7d34fc2b9a70da94386ebbc",
+  "key2": "1ac0609293054b84ad5f430d4080dd7b"
+}
+----
+Search Service: ai102srch
+ Url: https://ai102srch3103723193.search.windows.net
+ Admin Keys:
+{
+  "primaryKey": "2C47B65DFACA5C5F5DC5617CED252EFD",
+  "secondaryKey": "61BC77065659EA0328A7DC1BA940075C"
+}
+ Query Keys:
+[
+  {
+    "key": "3376C1D46C7BA957789E94C16D5FE09C",
+    "name": null
+  }
+]
+PS C:\avinash\AI-102-AIEngineer\23-custom-search-skill> 
+
+
+
+
+
+https://func2392wordcount.azurewebsites.net/api/wordcount?code=lozP8oS91Y9GvZlaChSlDfqf3kGPqdxz0o4V1zwRCz35mSk/GOhatw==
+
+
+Request
+
+{
+    "values": [
+        {
+            "recordId": "a1",
+            "data":
+            {
+            "text":  "Tiger, tiger burning bright in the darkness of the night.",
+            "language": "en"
+            }
+        },
+        {
+            "recordId": "a2",
+            "data":
+            {
+            "text":  "The rain in spain stays mainly in the plains! That's where you'll find the rain!",
+            "language": "en"
+            }
+        }
+    ]
+}
+
+
+
+Response
+
+{
+  "values": [
+    {
+      "recordId": "a1",
+      "data": {
+        "text": [
+          "tiger",
+          "burning",
+          "bright",
+          "darkness"
+        ]
+      },
+      "errors": null,
+      "warnings": null
+    },
+    {
+      "recordId": "a2",
+      "data": {
+        "text": [
+          "rain",
+          "spain",
+          "stays",
+          "mainly",
+          "find"
+        ]
+      },
+      "errors": null,
+      "warnings": null
+    }
+  ]
+}

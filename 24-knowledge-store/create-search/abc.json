@@ -1,0 +1,57 @@
+{
+    "file_id": "aHR0cHM6Ly9haTEwMnN0cjI2NDcwMzI3NTMuYmxvYi5jb3JlLndpbmRvd3MubmV0L21hcmdpZXMvcmV2aWV3cy8yMDE4MDcucGRm0",
+    "file_name": "201807.pdf",
+    "url": "https://ai102str2647032753.blob.core.windows.net/margies/reviews/201807.pdf",
+    "language": "en",
+    "sentiment": 0.944551944732666,
+    "key_phrases": [
+        {
+            "phrase": "The Creek Hotel"
+        },
+        {
+            "phrase": "Good ,attentive service"
+        },
+        {
+            "phrase": "limited menu"
+        },
+        {
+            "phrase": "Bao Cheng"
+        },
+        {
+            "phrase": "Great value"
+        },
+        {
+            "phrase": "Money"
+        },
+        {
+            "phrase": "Dubai"
+        },
+        {
+            "phrase": "UAE"
+        },
+        {
+            "phrase": "rooms"
+        },
+        {
+            "phrase": "restaurant"
+        },
+        {
+            "phrase": "vareity"
+        },
+        {
+            "phrase": "helpings"
+        },
+        {
+            "phrase": "Reviewer"
+        }
+    ],
+    "locations": [
+        {
+            "location": "Dubai, UAE"
+        },
+        {
+            "location": "UAE"
+        }
+    ],
+    "image_tags": []
+}

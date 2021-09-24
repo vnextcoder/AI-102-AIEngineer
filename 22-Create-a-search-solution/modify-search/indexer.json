@@ -1,7 +1,7 @@
 {
-    "name": "margies-indexer",
+    "name": "azureblob-indexer",
     "description": "Indexer for Margies Travel",
-    "dataSourceName": "margies-data",
+    "dataSourceName": "docstore2329",
     "skillsetName": "margies-skillset",
     "targetIndexName": "margies-index",
     "parameters": {
